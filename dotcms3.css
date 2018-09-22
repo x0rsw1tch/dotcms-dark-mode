@@ -1,0 +1,516 @@
+/* Header */
+
+body.dmundra,
+.portlet-wrapper,
+.listingTable th {
+    background-color: #121212;
+    color: #bbb;
+}
+
+body.tailerBody {
+    color: #bbb;
+    font-size: 13px;
+}
+
+.dmundra .imageBG,
+.dmundra .bannerBG,
+.dmundra .tabLeft,
+.dmundra .subNavCrumbTrail,
+.dmundra .subNavCrumbTrail li {
+    background-image: none;
+    background-color: #121212;
+}
+
+/* Navbar */
+
+.dmundra #main_window.sideMenu .dijitLayoutContainer {
+    background-color: #121212;
+}
+
+.dmundra #main_window.sideMenu .pageTools a {
+    color: #bbb; 
+}
+
+.dmundra #main_window.sideMenu .pageTools,
+.dmundra #main_window.sideMenu .lang,
+.dmundra #buttonRow {
+    border-color: #282828;
+}
+
+
+.dmundra #min_bar[style], .dmundra #max_bar[style] {
+    background-color: #181818 !important;
+    border-color: #282828;
+}
+
+.dmundra .navbar li .navMenu-title,
+.dmundra .browserTable td a {
+    color: #bbb;
+}
+
+.dmundra .navbar li .navMenu-subtitle {
+    color: #999;
+}
+
+
+.dmundra .navbar .horizontal li.level1.active .navMenu-title {
+    color: #eee;
+}
+
+.dmundra .navbar .horizontal li.level1,
+.dmundra .subNavCrumbTrail {
+    border-top-color: #282828;
+    border-right-color: #282828;
+    border-bottom-color: #282828;
+    border-left-color: #282828;
+}
+
+.dmundra .navbar .horizontal li.level1:last-child {
+    border-right-color: #282828;
+}
+
+.dmundra .navbar .dropdown li.level2 a {
+    background-color: #121212;
+    color: #bbb;
+}
+
+.dmundra .navbar .dropdown li.level2 a:hover {
+    background-color: #282828;
+    color: #eee;
+}
+
+.dmundra .navbar .dropdown {
+    border-color: #282828;
+}
+
+.dmundra .subNavCrumbTrail {
+    border-bottom-color: #282828 !important;
+}
+
+.dmundra #selectHostDiv {
+    background-image: none;
+}
+
+.dmundra #bd, #hd {
+    border-color: #282828;
+    box-shadow: none;
+}
+
+.dmundra #bd {
+    background-color: #121212 !important;
+    border-color: #282828 !important;
+}
+
+.dmundra .subNavCrumbTrail .lastCrumb {
+    background-image: none;
+}
+
+/* Everything Else */
+
+.dmundra .dijitContentPane {
+    background-color: #121212;
+    border-color: #282828;
+}
+
+.dmundra .dijitTextBox, .dmundra .dijitComboBox, .dmundra .dijitSpinner, .dmundra .dijitTextArea, .dmundra .dijitInlineEditor input {
+    background-image: none !important;
+    background-color: #101010;
+    border-color: #282828;
+}
+
+
+.dmundra #filterWrapper a[style] {
+    background-color: #101010 !important;
+    color: #eee;
+}
+
+.dmundra .dijitLayoutContainer {
+    background-image: none;
+    box-shadow: none;
+    border-color: #282828;
+}
+
+.dmundra .listingTable,
+.dmundra .listingTable th, .listingTable td {
+    border-color: #282828;
+}
+
+.dmundra a {
+    color: #d9d9d9;
+}
+
+.dmundra #TreeUL, #TreeUL a,
+.dmundra .browserTable td a {
+    color: #bbb !important;
+}
+
+.dmundra .buttonRow-left {
+    background-color: #121212;
+}
+
+.dmundra .buttonRow-left .gradient {
+    background-image: -webkit-linear-gradient(top, #181818 0%,#242424 100%);
+    color: #bbb;
+    border-color: #282828;
+}
+
+.dmundra .gradient2 {
+    background-image: -webkit-linear-gradient(top, #121212 0%,#121212 100%);
+}
+
+.dmundra #contentletActionsHanger > a, #contentletActionsHanger > a[style] {
+    background-color: #101010 !important;
+    border-color: #282828;
+    color: #bbb;
+}
+
+.dmundra .pageTools {
+    background-color: #101010;
+}
+
+.dmundra .dijitTab {
+    background-color: #121212;
+    background-image: none;
+    border-color: #282828;
+}
+
+.dmundra .dijitTabContainerTop-tabs .dijitTabChecked {
+    background-color: #242424;
+    border-color: #282828;
+    border-color: #282828;
+}
+
+.dmundra input, textarea, select {
+    background-color: #101010;
+    color: #bbb;
+    border-color: #282828;
+}
+
+
+.dmundra .dijitTextBox, .dmundra .dijitComboBox, .dmundra .dijitSpinner, .dmundra .dijitTextArea, .dmundra .dijitInlineEditor input {
+    background-image: none;
+    background-color: #101010;
+}
+
+.dmundra .callOutBox2 {
+    background-color: #101010;
+    border-color: #282828;
+}
+
+.dmundra #mainTabContainer {
+    border-color: #282828;
+    box-shadow: none;
+}
+
+.dmundra .permissionTable {
+    background-image: none;
+    border-color: #282828;
+}
+
+.dmundra .dijitAccordionTitle {
+    background-image: none;
+    background-color: #101010;
+    border-color: #282828;
+}
+
+.dmundra .dijitCheckBox, .dmundra .dijitCheckBoxIcon {
+    filter: invert(1);
+    border-color: #282828;
+}
+
+.dmundra tr.alternate_1 {
+    background-color: #101010;
+    transition: background-color 300ms ease-in-out;
+}
+
+.dmundra tr.alternate_2 {
+    background-color: #181818;
+    transition: background-color 300ms ease-in-out;
+}
+
+.dmundra tr.alternate_2:hover, tr.alternate_1:hover {
+	background-color: #282828 !important;
+    transition: background-color 300ms ease-in-out;
+}
+
+.dmundra .required2 {
+    color: #ec3838;
+}
+
+.dmundra .dijitSplitterH, .dmundra .dijitGutterH {
+    background-color: #181818;
+}
+
+.dmundra .dijitSplitterH .dijitSplitterThumb {
+    filter: invert(1);
+}
+
+.dmundra .contentRowSelected {
+    background-color: #282828 !important;
+}
+
+.dmundra .contentRowRoller {
+    background-color: #242424 !important;
+}
+
+.dmundra .dijitButtonNode {
+    border-color: #282828;
+    color: #666;
+}
+
+.dmundra td.dijitDownArrowButton {
+    border-right-color: #282828;
+}
+
+.dmundra .dijitButtonNode {
+    background-color: #101010;
+    color: #bbb;
+    border-color: #282828;
+    background-image: none;
+    border-width: 1px;
+}
+
+.dmundra .dijitButtonDisabled .dijitButtonNode  {
+    background-color: #282828;
+    border-color: #282828;
+    background-image: none;
+    border-width: 1px;
+}
+
+.dmundra .dijitDisabled .dijitButtonText {
+    color: #666;
+}
+
+.dmundra .dijitComboBox .dijitButtonNode {
+    border-color: #282828;
+}
+
+.dmundra .dijitComboBox .dijitArrowButton .dijitArrowButtonInner {
+    filter: invert(1);
+}
+
+.dmundra .dijitButton.dijitButtonHover .dijitButtonNode {
+    background-color: #282828;
+    background-image: none;
+    color: #bbb;
+    border-width: 0;
+}
+
+.dmundra .catPreview {
+    background-color: #101010;
+    border-color: #282828 !important;
+}
+
+.dmundra .catPreview > li {
+    background-color: #101010;
+    border-color: #48abd4;
+    color: #bbb;
+}
+
+.dmundra .dijitSplitterV {
+    background-color: #282828;
+}
+
+.dmundra *::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+.dmundra *::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.dmundra *::-webkit-scrollbar-thumb {
+  background-color: #282828;
+}
+
+.dmundra input {
+    border-color: #282828;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.dmundra .navDay a, .navLastDay a {
+    color: #bbb;
+}
+
+.dmundra .navSelectedDay.navDay a, .navSelectedDay.navLastDay a {
+    color: #333;
+}
+
+.dmundra #dailyEvents h3, #ongoingEvents h3 {
+    color: #bbb;
+    background-color: #101010;
+    border-color: #282828;
+}
+    
+.dmundra #dailyEvents ul li, #ongoingEvents ul li {
+    border-color: #282828;
+}
+
+.dmundra .tundra .dojoxGridHeader .dojoxGridCell {
+    color: #bbb !important;
+    background-image: none;
+    background-color: #101010;
+    border-color: #282828;
+}
+
+.dmundra .dojoxGrid .dojoxGridRowOdd {
+    background-color: #101010;
+}
+
+.dmundra .dojoxGrid .dojoxGridRow {
+    background-color: #181818;
+}
+
+.dmundra .dojoxGridPaginator {
+    background-color: #101010;
+}
+
+.dmundra .dijitMenu {
+    background-color: #101010;
+    box-shadow: none;
+}
+
+.dmundra .dj_webkit .dmundra .dijitPopup .dijitMenu {
+    box-shadow: none;
+}
+
+.dmundra .dijitMenuItem.dijitMenuItemHover {
+    background-color: #282828;
+}
+
+
+.dmundra .dijitMenuItem.dijitMenuItemSelected {
+    background-color: #282828;
+    color: #eee;
+}
+
+.dmundra .lineDividerTitle {
+    background-color: #101010;
+    border-color: #282828;
+}
+
+.dmundra #contentActionsCp > a {
+    background-color: #101010;
+    color: #bbb;
+    border-color: #282828;
+}
+
+.dmundra #fieldsTable {
+    border-color: #282828 !important;
+}
+
+.dmundra #fieldsTableHeader {
+    background-color: #181818;
+}
+
+.dmundra #fieldsTable .item_header_cell {
+    background-color: #181818;
+    border-color: #282828 !important;
+}
+
+.dmundra #fieldsTable .dojoDndContainer .dojoDndItem[style] {
+    background-color: #181818 !important;
+}
+
+.dmundra #fieldsTable .dojoDndContainerOver .dojoDndItem[style] {
+    background-color: #181818 !important;
+}
+
+.dmundra #fieldsTable .dojoDndItem .item_cell[style] {
+    background-color: #181818 !important;
+    border-color: #282828 !important;
+}
+
+.dmundra .callOutBox {
+    background-color: #101010;
+    color: #bbb;
+}
+
+.dmundra .tundra .dojoxGridHeader {
+    background-color: #101010;
+}
+
+.dmundra .tundra .dojoxGridHeader .dojoxGridCell {
+	color: #bbb;
+}
+
+.dmundra .listingTable.actionTable tr {
+    background-color: #181818;
+}
+
+.dmundra .listingTable.actionTable tr.active {
+    background-color: #282828;
+}
+
+.dmundra #actionPanel {
+    background-color: #121212;
+}
+
+.dmundra #actionPanelContent #actionPanelContainer {
+    background-color: #121212;
+}
+
+
+/* MCE Panel */
+
+.dmundra .mce-tinymce.mce-container.mce-panel .mce-menubar.mce-toolbar {
+    background-color: #121212;
+    color: #bbb;
+}
+
+.dmundra .mce-menubar, .mce-tinymce {
+    border-color: #282828;
+}
+
+
+.dmundra .mce-menubar.mce-toolbar button span { 
+    color: #bbb;
+}
+
+.dmundra .mce-menubar.mce-toolbar button i,
+.dmundra .mce-toolbar-grp.mce-panel .mce-btn-group .mce-btn button i {
+	border-top-color: #282828;
+}
+
+.dmundra .mce-toolbar-grp.mce-panel {
+    background-color: #121212;
+    background-image: none;
+}
+
+
+.dmundra .mce-toolbar-grp.mce-panel .mce-btn-group .mce-btn {
+    background-color: #101010;
+    background-image: none;
+}
+
+.dmundra .mce-toolbar-grp.mce-panel .mce-btn-group .mce-btn button span {
+    color: #bbb;
+}
+
+.dmundra .mce-toolbar-grp.mce-panel .mce-btn-group .mce-btn i {
+    text-shadow: none;
+    color: #bbb;
+}
+
+.dmundra .mce-menu.mce-floatpanel:not(.mce-menu-sub) {
+    background-color: #101010;
+}
+
+.dmundra .mce-menu.mce-floatpanel:not(.mce-menu-sub) span {
+    color: #bbb;
+}
+
+.dmundra .mce-panel.mce-statusbar {
+    background-color: #121212;
+    background-image: none;
+}
+
+.dmundra .mce-panel.mce-statusbar .mce-path-item {
+    color: #bbb;
+}
+
+.dmundra .mce-panel.mce-statusbar .mce-wordcount {
+    color: #bbb;
+    text-shadow: none;
+}

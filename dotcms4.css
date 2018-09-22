@@ -1,0 +1,300 @@
+div.layout__content aside.layout__sidebar,
+.ui-toolbar.ui-widget.ui-widget-header.ui-corner-all, nav, 
+accordion-group a.accordion-group__title,
+accordion-group a.accordion-group__title.is-active,
+accordion-group div,
+accordion-group .accordion-group__content.ng-trigger.ng-trigger-expandAnimation,
+main.layout__main,
+.view-users .view-users__users-list .dojoxGridHeader,
+.dojoxGrid,
+.dojoxGrid.view-users__users-list, select, select option,
+div[dojotype="dijit.layout.ContentPane"] > div,
+.dijitPopup.dijitComboBoxMenuPopup .dijitMenu.dijitComboBoxMenu,
+div.portlet-main,
+div[dojotype="dijit.layout.ContentPane"] table.listingTable th,
+div.portlet-wrapper,
+body.dotcms,
+.content-edit__sidebar,
+#contentletActionsHanger a,
+[dojotype="dijit.layout.ContentPane"],
+.dijitDialogTitleBar, 
+[dojotype="dijit.layout.BorderContainer"] [dojoattachpoint="tablesWrapper"] a,
+[dojotype="dijit.layout.BorderContainer"] [dojoattachpoint="tablesSummary"],
+.dijitDialogPaneContent,
+span.dijitButtonNode, span.dijitButtonNode .dijitButtonContents .dijitButtonText,
+.dojoxGrid .dojoxGridPaginator,
+a.advanced-search-button,
+.catPreview li,
+.tagsWrapper a,
+.dojoxGridScrollbox,
+.dojoxGrid,
+.layout__main > dot-iframe-porlet,
+dot-iframe-porlet,
+dot-iframe,
+main.layout__main,
+dot-loading-indicator,
+dot-iframe[_ngcontent-c40],
+div[class*=action-header],
+.dialog[_ngcontent-c14] .ui-dialog .ui-dialog-titlebar,
+.edit-page-nav {
+    background-color: #181818;
+    color: #bbb;
+    border-color: #282828;
+}
+
+a[href] {
+    color: #8a69e8;
+}
+
+button.ui-button,
+.edit-page-toolbar__cancel[_ngcontent-c29],
+.ui-selectbutton.ui-buttonset,
+.ui-button[secondary] .ui-button-text {
+    background-color: #8a69e8;
+}
+
+[secondary] .ui-selectbutton .ui-button .ui-button-text,
+.ui-button[secondary] .ui-button-text {
+    color: white;
+}
+
+.ui-button > .ui-button-text {
+    color: white;
+}
+
+.ui-datatable-tablewrapper table th[scope=col] {
+    background-color: #181818;
+    color: #bbb;
+    border-color: #282828;
+}
+
+#assetTreeWrapper ul#TreeUL li[id*="TreeLI"] >div[style],
+#assetTreeWrapper ul#TreeUL li,
+#assetTreeWrapper ul#TreeUL li a, 
+#assetTreeWrapper ul#TreeUL li span {
+    background-color: #181818 !important;
+    color: #bbb !important;
+}
+
+.dojoxGrid {
+    background-color: #181818 !important;
+}
+
+a {
+    background-color: transparent;
+}
+
+div.main-nav__submenu {
+    background-color: #212121;
+}
+
+div.accordion-group__content a.main-nav__submenu--active,
+.categories-selector__breadcrumbs a:last-child {
+     color: #eee;
+}
+
+#listingLanguagesTable td a,
+.categories-selector__breadcrumbs a,
+.mce-btn button > span {
+    color: #bbb;
+}
+
+accordion .main-nav__submenu a:hover {
+    color: #bbb;
+}
+
+.context-menu {
+    background-color: #101010;
+	border-color: #282828;
+}
+.context-menu__item,
+.ui-datatable-tablewrapper table tr.ui-datatable-even,
+.ui-datatable-tablewrapper table tr.ui-datatable-odd {
+    color: #bbb;
+}
+
+.context-menu__item:hover {
+    background-color: #282828;
+}
+
+div[dojotype="dijit.layout.BorderContainer"],
+table td.dojoxGridCell, .portlet-sidebar,
+.calendar-events .portlet-sidebar .listingTable,
+.ui-datatable-tablewrapper table tr.ui-datatable-even,
+.ui-datatable-tablewrapper table tr.ui-datatable-odd {
+     background-color: #101010;
+     color: #bbb;
+}
+
+div[dojotype="dijit.layout.ContentPane"] th,
+div[dojotype="dijit.layout.ContentPane"] table th,
+div[dojotype="dijit.layout.ContentPane"] .listingTable.actionTable tr.active,
+.listingTable tr.alternate_1,
+.ui-datatable-tablewrapper table tr.ui-datatable-even {
+    background-color: #151515;
+    border-color: #282828;
+}
+
+.portlet-sidebar .dojoxGrid,
+.dojoxGrid .dojoxGridMasterView .dojoxGridRow,
+.portlet-main .dijitTabContainer .dijitTabPaneWrapper table.listingTable th,
+body.dotcms,
+#listing-table th, .dojoxUploaderFileListTable th, .listingTable th,
+.ui-datatable-tablewrapper table tr.ui-datatable-odd {
+    background-color: #181818 !important;
+}
+
+.listingTable td a {
+    color: #bbb;
+}
+
+
+.listingTable tr.alternate_2, .listingTable tr.alternate_2 a  {
+    background-color: #222222 !important;
+}
+
+.dijitPopup.dijitComboBoxMenuPopup .dijitMenu.dijitComboBoxMenu .dijitMenuItem.dijitMenuItemHover,
+.listingTable tr.alternate_1:hover, .listingTable tr.alternate_1:hover a
+.listingTable tr.alternate_2:hover, .listingTable tr.alternate_2:hover a {
+    background-color: #282828 !important;
+}
+
+accordion .accordion-group__title:hover,
+.contentRowSelected, .contentRowRoller {
+    background-color: #323232 !important;
+}
+
+
+
+.layout__sidebar,
+.dijitContentPane,
+.ui-datatable-tablewrapper table tr.ui-datatable-even,
+.ui-datatable-tablewrapper table tr.ui-datatable-odd {
+	border-color: #202020;
+}
+
+.dijit.dijitReset.dijitInline.dijitButton,
+.dijitRight.dijitButtonNode.dijitArrowButton.dijitArrowButtonContainer,
+.dijit.dijitInline.dijitTextBox.dijitComboBox,
+.dijitComboButton,
+.dijitMenuTable,
+.dijitMenuTable.contentlet-menu-actions {
+    background-color: #121212;
+    border-color: #282828;
+}
+
+div.dijitTextBox,
+div[role=tablist] .dijitTab,
+.dijitTextBox.dijitTextArea.dijitExpandingTextArea,
+pre,
+.ui input[type=text],
+.ui input[type=text]:focus,
+.dijitInputField.dijitInputContainer input,
+.dijitRolesSelectTreeWrapper,
+.dijitTree, .dijitTreeContainer,
+.dijitHostFoldersTreeWrapper,
+input[readonly=readonly] {
+    background-color: #151515;
+    color: #bbb;
+    border-color: #282828;
+}
+
+textarea[style] {
+    background-color: #121212 !important;
+    color: #bbb !important;
+    border-color: #282828 !important;
+}
+
+div[role=tablist] .dijitTab.dijitTabChecked {
+    border-top-color: #0E80CB;
+}
+
+.dijitTextBoxFocus input.dijitInputInner,
+.dijitTextBoxHover input.dijitInputInner,
+.dijit.dijitReset.dijitInline.dijitLeft.dijitTextBox,
+.dijitReset,
+span.dijitPlaceHolder.dijitInputField,
+.dijitRight.dijitButtonNode.dijitArrowButton.dijitArrowButtonContainer .dijitArrowButton.dijitArrowButtonContainer::before,
+.dijit.dijitTextBox.dijitTextBoxFocused,
+.dijit.dijitTextBox.dijitTextBoxFocused.dijitComboBoxOpened.dijitComboBoxFocused.dijitTextBoxOpenedFocused {
+    color: #bbb !important;
+}
+
+.tailerBody {
+    color: #bbb !important;
+    font-size: 13px;
+}
+
+/* Dark Text */
+tr.trIdxActive td {
+    color: #181818;
+}
+
+.dijitTabListContainer-top.dijitTabController,
+#fullUserName {
+ 	border-bottom-color: #282828 !important;   
+}
+
+#userRolesTreeWrapper,
+div[dojotype="dijit.layout.ContentPane"] table tr,
+div[dojotype="dijit.layout.ContentPane"] table th,
+div[dojotype="dijit.layout.ContentPane"] table td,
+.portlet-main .dijitTabContainer .dijitTabPaneWrapper table.listingTable th,
+#listing-table th, .dojoxUploaderFileListTable th, .listingTable tr th,
+#listing-table th, .dojoxUploaderFileListTable th, .listingTable tr td,
+#contentletActionsHanger,
+.ui-datatable-tablewrapper table tr.ui-datatable-even td,
+.ui-datatable-tablewrapper table tr.ui-datatable-odd td {
+    border-top-color: #282828 !important;
+    border-right-color: #282828 !important;
+    border-bottom-color: #282828 !important;
+    border-left-color: #282828 !important;
+}
+
+table.dojoxGridRowTable,
+table.dojoxGridRowTable .dojoxGridContent .dojoxGridRow,
+table.dojoxGridRowTable[role=presentation],
+.dojoxGrid .dojoxGridMasterView .dojoxGridRow,
+#dailyEvents h3, #ongoingEvents h3,
+.ui-datatable-tablewrapper table tr.ui-datatable-even,
+.ui-datatable-tablewrapper table tr.ui-datatable-odd {
+	background-color: #151515;
+    color: #bbb;
+    border-top-color: #282828 !important;
+    border-right-color: #282828 !important;
+    border-bottom-color: #282828 !important;
+    border-left-color: #282828 !important;
+}
+
+.dojoxGridRow.dojoxGridRowOdd .dojoxGridCell {
+    background-color: #141414 !important;
+    color: #bbb !important;
+}
+
+.dijitButtonDisabled.dijitDisabled,
+.dijitButtonDisabled.dijitDisabled .dijitButtonText {
+    background-color: #404040;
+    color: #5b5b5b;
+}
+
+
+.dojoxGridRow .dojoxGridCell {
+    background-color: #181818 !important;
+    color: #bbb !important;
+}
+
+.dojoxGridRow.dojoxGridRowOver .dojoxGridCell {
+    background-color: #212121 !important;
+    color: #bbb !important;
+}
+
+/* #0E80CB */
+
+.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver .dojoxGridCell {
+    background-color: #212121 !important;
+    color: #bbb !important;
+}
+
+#controlsdiv ~ table {
+    background-color: #181818 !important;
+}
