@@ -1,5 +1,4 @@
 /* Header */
-
 body.dmundra,
 .portlet-wrapper,
 .listingTable th {
@@ -22,13 +21,12 @@ body.tailerBody {
 }
 
 /* Navbar */
-
 .dmundra #main_window.sideMenu .dijitLayoutContainer {
     background-color: #121212;
 }
 
 .dmundra #main_window.sideMenu .pageTools a {
-    color: #bbb; 
+    color: #bbb;
 }
 
 .dmundra #main_window.sideMenu .pageTools,
@@ -38,7 +36,8 @@ body.tailerBody {
 }
 
 
-.dmundra #min_bar[style], .dmundra #max_bar[style] {
+.dmundra #min_bar[style],
+.dmundra #max_bar[style] {
     background-color: #181818 !important;
     border-color: #282828;
 }
@@ -52,6 +51,14 @@ body.tailerBody {
     color: #999;
 }
 
+.dmundra li.level1 .navMenu-title {
+    color: #999;
+}
+
+.dmundra #menu ul.horizontal li.level1 .tabLeft {
+    background-image: none;
+    background-color: #121212;
+}
 
 .dmundra .navbar .horizontal li.level1.active .navMenu-title {
     color: #eee;
@@ -79,6 +86,11 @@ body.tailerBody {
     color: #eee;
 }
 
+#menu ul.dropdown li.level2 a {
+    background-color: #282828;
+    color: #eee;
+}
+
 .dmundra .navbar .dropdown {
     border-color: #282828;
 }
@@ -91,7 +103,8 @@ body.tailerBody {
     background-image: none;
 }
 
-.dmundra #bd, #hd {
+.dmundra #bd,
+#hd {
     border-color: #282828;
     box-shadow: none;
 }
@@ -106,13 +119,16 @@ body.tailerBody {
 }
 
 /* Everything Else */
-
 .dmundra .dijitContentPane {
     background-color: #121212;
     border-color: #282828;
 }
 
-.dmundra .dijitTextBox, .dmundra .dijitComboBox, .dmundra .dijitSpinner, .dmundra .dijitTextArea, .dmundra .dijitInlineEditor input {
+.dmundra .dijitTextBox,
+.dmundra .dijitComboBox,
+.dmundra .dijitSpinner,
+.dmundra .dijitTextArea,
+.dmundra .dijitInlineEditor input {
     background-image: none !important;
     background-color: #101010;
     border-color: #282828;
@@ -131,7 +147,8 @@ body.tailerBody {
 }
 
 .dmundra .listingTable,
-.dmundra .listingTable th, .listingTable td {
+.dmundra .listingTable th,
+.listingTable td {
     border-color: #282828;
 }
 
@@ -139,7 +156,8 @@ body.tailerBody {
     color: #d9d9d9;
 }
 
-.dmundra #TreeUL, #TreeUL a,
+.dmundra #TreeUL,
+#TreeUL a,
 .dmundra .browserTable td a {
     color: #bbb !important;
 }
@@ -149,16 +167,17 @@ body.tailerBody {
 }
 
 .dmundra .buttonRow-left .gradient {
-    background-image: -webkit-linear-gradient(top, #181818 0%,#242424 100%);
+    background-image: -webkit-linear-gradient(top, #181818 0%, #242424 100%);
     color: #bbb;
     border-color: #282828;
 }
 
 .dmundra .gradient2 {
-    background-image: -webkit-linear-gradient(top, #121212 0%,#121212 100%);
+    background-image: -webkit-linear-gradient(top, #121212 0%, #121212 100%);
 }
 
-.dmundra #contentletActionsHanger > a, #contentletActionsHanger > a[style] {
+.dmundra #contentletActionsHanger > a,
+#contentletActionsHanger > a[style] {
     background-color: #101010 !important;
     border-color: #282828;
     color: #bbb;
@@ -180,14 +199,20 @@ body.tailerBody {
     border-color: #282828;
 }
 
-.dmundra input, textarea, select {
+.dmundra input,
+textarea,
+select {
     background-color: #101010;
     color: #bbb;
     border-color: #282828;
 }
 
 
-.dmundra .dijitTextBox, .dmundra .dijitComboBox, .dmundra .dijitSpinner, .dmundra .dijitTextArea, .dmundra .dijitInlineEditor input {
+.dmundra .dijitTextBox,
+.dmundra .dijitComboBox,
+.dmundra .dijitSpinner,
+.dmundra .dijitTextArea,
+.dmundra .dijitInlineEditor input {
     background-image: none;
     background-color: #101010;
 }
@@ -213,7 +238,8 @@ body.tailerBody {
     border-color: #282828;
 }
 
-.dmundra .dijitCheckBox, .dmundra .dijitCheckBoxIcon {
+.dmundra .dijitCheckBox,
+.dmundra .dijitCheckBoxIcon {
     filter: invert(1);
     border-color: #282828;
 }
@@ -228,8 +254,9 @@ body.tailerBody {
     transition: background-color 300ms ease-in-out;
 }
 
-.dmundra tr.alternate_2:hover, tr.alternate_1:hover {
-	background-color: #282828 !important;
+.dmundra tr.alternate_2:hover,
+tr.alternate_1:hover {
+    background-color: #282828 !important;
     transition: background-color 300ms ease-in-out;
 }
 
@@ -237,7 +264,8 @@ body.tailerBody {
     color: #ec3838;
 }
 
-.dmundra .dijitSplitterH, .dmundra .dijitGutterH {
+.dmundra .dijitSplitterH,
+.dmundra .dijitGutterH {
     background-color: #181818;
 }
 
@@ -270,7 +298,7 @@ body.tailerBody {
     border-width: 1px;
 }
 
-.dmundra .dijitButtonDisabled .dijitButtonNode  {
+.dmundra .dijitButtonDisabled .dijitButtonNode {
     background-color: #282828;
     border-color: #282828;
     background-image: none;
@@ -314,13 +342,13 @@ body.tailerBody {
 .dmundra *::-webkit-scrollbar {
     width: 1em;
 }
- 
+
 .dmundra *::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
- 
+
 .dmundra *::-webkit-scrollbar-thumb {
-  background-color: #282828;
+    background-color: #282828;
 }
 
 .dmundra input {
@@ -329,21 +357,25 @@ body.tailerBody {
     border-width: 1px;
 }
 
-.dmundra .navDay a, .navLastDay a {
+.dmundra .navDay a,
+.navLastDay a {
     color: #bbb;
 }
 
-.dmundra .navSelectedDay.navDay a, .navSelectedDay.navLastDay a {
+.dmundra .navSelectedDay.navDay a,
+.navSelectedDay.navLastDay a {
     color: #333;
 }
 
-.dmundra #dailyEvents h3, #ongoingEvents h3 {
+.dmundra #dailyEvents h3,
+#ongoingEvents h3 {
     color: #bbb;
     background-color: #101010;
     border-color: #282828;
 }
-    
-.dmundra #dailyEvents ul li, #ongoingEvents ul li {
+
+.dmundra #dailyEvents ul li,
+#ongoingEvents ul li {
     border-color: #282828;
 }
 
@@ -353,6 +385,13 @@ body.tailerBody {
     background-color: #101010;
     border-color: #282828;
 }
+
+.dmundra .tundra .dojoxGridCell {
+    border-style: solid;
+    border-color: #282828;
+}
+
+
 
 .dmundra .dojoxGrid .dojoxGridRowOdd {
     background-color: #101010;
@@ -432,7 +471,7 @@ body.tailerBody {
 }
 
 .dmundra .tundra .dojoxGridHeader .dojoxGridCell {
-	color: #bbb;
+    color: #bbb;
 }
 
 .dmundra .listingTable.actionTable tr {
@@ -453,24 +492,24 @@ body.tailerBody {
 
 
 /* MCE Panel */
-
 .dmundra .mce-tinymce.mce-container.mce-panel .mce-menubar.mce-toolbar {
     background-color: #121212;
     color: #bbb;
 }
 
-.dmundra .mce-menubar, .mce-tinymce {
+.dmundra .mce-menubar,
+.mce-tinymce {
     border-color: #282828;
 }
 
 
-.dmundra .mce-menubar.mce-toolbar button span { 
+.dmundra .mce-menubar.mce-toolbar button span {
     color: #bbb;
 }
 
 .dmundra .mce-menubar.mce-toolbar button i,
 .dmundra .mce-toolbar-grp.mce-panel .mce-btn-group .mce-btn button i {
-	border-top-color: #282828;
+    border-top-color: #282828;
 }
 
 .dmundra .mce-toolbar-grp.mce-panel {
@@ -513,4 +552,69 @@ body.tailerBody {
 .dmundra .mce-panel.mce-statusbar .mce-wordcount {
     color: #bbb;
     text-shadow: none;
+}
+
+/* Dialog */
+.dmundra .dijitDialog {
+    background-color: #101010;
+    color: #bbb;
+    border-color: #282828;
+    box-shadow: 0px -4px 11px 0px rgba(0, 0, 0, 0.10),
+    0px 6px 11px 0px rgba(0, 0, 0, 0.10),
+    3px 1px 11px 0px rgba(0, 0, 0, 0.10),
+    -3px 1px 11px 0px rgba(0, 0, 0, 0.10);
+}
+
+.dmundra .dijitDialog .dijitDialogTitleBar {
+    background-image: none;
+    background-color: #101010;
+    color: #bbb;
+}
+
+.dmundra .dijitDialog .dijitDialogPaneContent,
+.dmundra .dijitDialog .sTypeHeader {
+    background-color: #101010;
+    color: #bbb;
+}
+
+.dmundra .dijitDialogUnderlay {
+    background-color: #111;
+}
+
+/* Editor */
+span.xml-text,
+span.js-property,
+span.js-variable,
+span.css-identifier {
+    color: #a1a1a1;
+}
+
+span.xml-punctuation {
+    color: #a1a1a1;
+}
+
+span.css-value,
+span.xml-tagname {
+    color: #c200de;
+}
+
+span.xml-attribute {
+    color: #2bad16;
+}
+
+span.js-string {
+    color: #dc1d1d;
+}
+
+iframe.body_codeMirror html::-webkit-scrollbar {
+    color: red;
+}
+
+span.js-localvariable {
+    color: #6093d2;
+}
+
+span.js-variabledef,
+span.xml-attname {
+    color: #5b5bff;
 }

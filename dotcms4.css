@@ -1,3 +1,7 @@
+body, .layout__sidebar {
+    background-color: #181818;
+}
+
 div.layout__content aside.layout__sidebar,
 .ui-toolbar.ui-widget.ui-widget-header.ui-corner-all, nav, 
 accordion-group a.accordion-group__title,

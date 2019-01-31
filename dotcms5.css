@@ -19,6 +19,10 @@ border-color: #938eb5;
 
 */
 
+body .loading-wrapper {
+    background-color: #181818;
+}
+
 
 /* Structure */
 dot-root dot-listing-data-table {
