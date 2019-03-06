@@ -1,0 +1,70 @@
+#fileTextEditorDiv .ace_editor.ace-tm[style*="border:1px solid silver"] {
+    border: 1px solid #323232 !important;
+}
+
+#fileTextEditorDiv .ace_editor.ace-tm {
+    font: 13px/normal 'Source Code Pro', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    background-color: #232525;
+}
+
+#fileTextEditorDiv .ace_editor.ace-tm .ace_gutter, #fileTextEditorDiv .ace_editor.ace-tm .ace_gutter .ace_gutter-cell {
+    background: #232525;
+    color: #ababab;
+}
+
+#fileTextEditorDiv .ace_editor.ace-tm .ace_content {
+    background-color: #232525;
+    color: #ababab;
+}
+
+#fileTextEditorDiv .ace_editor.ace-tm .ace_print-margin {
+    display: none;
+}
+
+#fileTextEditorDiv .ace_editor.ace-tm .ace_indent-guide {
+    opacity: 0.25;
+}
+
+#fileTextEditorDiv .ace_editor.ace-tm .ace_scrollbar {
+    background-color: #232525;
+}
+
+#fileTextEditorDiv .ace_editor.ace-tm .ace_meta.ace_tag {
+    color: #cc7832;
+}
+
+#fileTextEditorDiv .ace_editor.ace-tm .ace_constant {
+    color: #cc7832;
+}
+
+#fileTextEditorDiv .ace_editor.ace-tm .ace_support.ace_type {
+    color: #a9b7c6;
+}
+
+#fileTextEditorDiv .ace_editor.ace-tm .ace_keyword {
+    color: #cc7832;
+}
+
+#fileTextEditorDiv .ace_editor.ace-tm .ace_string {
+    color: #6a8759;
+}
+
+#fileTextEditorDiv .ace_editor.ace-tm .ace_attribute-name {
+    color: #baba8a;
+}
+
+#fileTextEditorDiv .ace_editor.ace-tm .ace_variable {
+    color: #baba8a;
+}
+
+#fileTextEditorDiv .ace_editor.ace-tm .ace_numeric {
+    color: #6897bb;
+}
+
+#fileTextEditorDiv .ace_editor.ace-tm .ace_keyword {
+    color: #cc7832;
+}
+
+#fileTextEditorDiv .ace_editor.ace-tm .ace_comment {
+    color: #808080;
+}
