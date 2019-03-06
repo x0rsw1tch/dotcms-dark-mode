@@ -1,7 +1,3 @@
-body, .layout__sidebar {
-    background-color: #181818;
-}
-
 div.layout__content aside.layout__sidebar,
 .ui-toolbar.ui-widget.ui-widget-header.ui-corner-all, nav, 
 accordion-group a.accordion-group__title,
@@ -44,6 +40,10 @@ div[class*=action-header],
     background-color: #181818;
     color: #bbb;
     border-color: #282828;
+}
+
+body {
+    background-color: #3a3847;
 }
 
 a[href] {

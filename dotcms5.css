@@ -19,12 +19,13 @@ border-color: #938eb5;
 
 */
 
-body .loading-wrapper {
-    background-color: #181818;
+body {
+    background-color: #3a3847;
 }
 
-
 /* Structure */
+
+
 dot-root dot-listing-data-table {
     background-color: #3a3847;
 }
@@ -397,6 +398,10 @@ body.dotcms .dijitMenu .dijitMenuItem.dijitMenuItemHover {
 .layout__main .ui-button[secondary] [class*=ui-button-icon].ui-clickable,
 .layout__main .ui-button[secondary] .ui-button-text.ui-clickable {
     color: white;    
+}
+
+.layout__main .ui-radiobutton .ui-radiobutton-box.ui-state-disabled .ui-radiobutton-icon {
+    color: #c336e5 !important;
 }
 
 

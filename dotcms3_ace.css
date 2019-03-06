@@ -1,4 +1,4 @@
-.dmundra #editor.ace-tm {
+.dmundra [id*=editor].ace-tm {
     border: 1px solid #323232;
 }
 
@@ -6,69 +6,69 @@
     background-color: #101010;
 }
 
-.dmundra #editor.ace-tm {
+.dmundra [id*=editor].ace-tm {
     font: 14px/normal 'Source Code Pro', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
     background-color: #232525;
 }
 
-.dmundra #editor.ace-tm .ace_gutter, .dmundra #editor.ace-tm .ace_gutter .ace_gutter-cell {
+.dmundra [id*=editor].ace-tm .ace_gutter, .dmundra [id*=editor].ace-tm .ace_gutter .ace_gutter-cell {
     background: #232525;
     color: #ababab;
 }
 
-.dmundra #editor.ace-tm .ace_content {
+.dmundra [id*=editor].ace-tm .ace_content {
     background-color: #232525;
     color: #ababab;
 }
 
-.dmundra #editor.ace-tm .ace_print-margin {
+.dmundra [id*=editor].ace-tm .ace_print-margin {
     display: none;
 }
 
-.dmundra #editor.ace-tm .ace_indent-guide {
+.dmundra [id*=editor].ace-tm .ace_indent-guide {
     opacity: 0.25;
 }
 
-.dmundra #editor.ace-tm .ace_scrollbar {
+.dmundra [id*=editor].ace-tm .ace_scrollbar {
     background-color: #232525;
 }
 
-.dmundra #editor.ace-tm .ace_meta.ace_tag {
+.dmundra [id*=editor].ace-tm .ace_meta.ace_tag {
     color: #cc7832;
 }
 
-.dmundra #editor.ace-tm .ace_constant {
+.dmundra [id*=editor].ace-tm .ace_constant {
     color: #cc7832;
 }
 
-.dmundra #editor.ace-tm .ace_support.ace_type {
+.dmundra [id*=editor].ace-tm .ace_support.ace_type {
     color: #a9b7c6;
 }
 
-.dmundra #editor.ace-tm .ace_keyword {
+.dmundra [id*=editor].ace-tm .ace_keyword {
     color: #cc7832;
 }
 
-.dmundra #editor.ace-tm .ace_string {
+.dmundra [id*=editor].ace-tm .ace_string {
     color: #6a8759;
 }
 
-.dmundra #editor.ace-tm .ace_attribute-name {
+.dmundra [id*=editor].ace-tm .ace_attribute-name {
     color: #baba8a;
 }
 
-.dmundra #editor.ace-tm .ace_variable {
+.dmundra [id*=editor].ace-tm .ace_variable {
     color: #baba8a;
 }
 
-.dmundra #editor.ace-tm .ace_numeric {
+.dmundra [id*=editor].ace-tm .ace_numeric {
     color: #6897bb;
 }
 
-.dmundra #editor.ace-tm .ace_keyword {
+.dmundra [id*=editor].ace-tm .ace_keyword {
     color: #cc7832;
 }
 
-.dmundra #editor.ace-tm .ace_comment {
+.dmundra [id*=editor].ace-tm .ace_comment {
     color: #808080;
 }
