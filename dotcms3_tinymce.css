@@ -1,0 +1,115 @@
+body#tinymce {
+    background-color: #e4e7e9;
+}
+
+.mce-container {
+    border: none;
+    background-color: #121212;
+}
+
+.mce-tinymce .mce-panel, .mce-tinymce .mce-menubar, .mce-tinymce .mce-btn {
+    background-image: none;
+}
+
+.mce-tinymce .mce-btn {
+    background-color: #121212;
+}
+
+.mce-tinymce .mce-menubar {
+    background-color: #121212;
+    color: #bbb;
+}
+
+.mce-tinymce .mce-menubar .mce-menubtn span {
+    color: #bbb;
+}
+
+.mce-tinymce .mce-menubar .mce-menubtn:hover {
+    background-color: #262626;
+}
+
+.mce-tinymce .mce-menubar .mce-menubtn.mce-active {
+    background-color: #262626;
+}
+
+
+.mce-tinymce i {
+    color: #bbb;
+    text-shadow: 1px 1px #292929;
+}
+
+.mce-tinymce i:before {
+    outline-color: #242424;
+}
+
+.mce-container.mce-floatpanel.mce-menu  {
+    background-color: #121212;
+    color: #bbb;
+}
+
+.mce-container.mce-floatpanel .mce-menu-item span {
+    color: #bbb;
+}
+
+.mce-container.mce-floatpanel .mce-menu-item i {
+    color: #bbb;
+}
+
+.mce-container.mce-window {
+    background-color: #121212;
+    color: #bbb;   
+}
+
+.mce-container.mce-window .mce-window-head {
+    border: none;
+}
+
+.mce-container.mce-window .mce-window-head .mce-title {
+    color: #bbb;
+}
+
+.mce-container.mce-window .mce-tabs {
+    background-color: #121212;
+    color: #bbb;   
+    border: none;
+}
+
+.mce-container.mce-window .mce-tab {
+    background-color: #121212;
+    color: #bbb;
+    text-shadow: 0 1px 1px rgba(30,30,30,.75);
+    border: none;
+}
+
+.mce-container.mce-window .mce-tab.mce-active {
+    background-color: #323232;
+    color: #bbb;
+    text-shadow: 0 1px 1px rgba(30,30,30,.75);
+}
+
+.mce-container.mce-window .mce-container-body {
+    background-color: #323232;
+}
+
+.mce-container.mce-window .mce-container-body label {
+    color: #bbb;
+}
+
+.mce-container.mce-window .mce-container-body input {
+    background-color: #101010;
+    border: none;
+    color: #bbb;
+}
+.mce-container.mce-window .mce-btn {
+    border: none;
+}
+
+.mce-container.mce-window .mce-btn button {
+    background-color: #121212;
+    color: #bbb;
+}
+
+.mce-container.mce-window .mce-btn i {
+    background-color: #121212;
+    color: #bbb;
+}

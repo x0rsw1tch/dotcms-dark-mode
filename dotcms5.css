@@ -19,7 +19,7 @@ border-color: #938eb5;
 
 */
 
-body {
+body:not(#tinymce) {
     background-color: #3a3847;
 }
 
