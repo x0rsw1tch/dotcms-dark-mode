@@ -45,11 +45,14 @@ body.tailerBody {
 .dmundra .navbar li .navMenu-title,
 .dmundra .browserTable td a {
     color: #bbb;
+    font-family: Helvetica, 'Segoe UI', Arial, sans-serif;
+    font-size: 14px;
 }
 
 .dmundra .navbar li .navMenu-subtitle {
     color: #999;
 }
+
 
 .dmundra li.level1 .navMenu-title {
     color: #999;
@@ -66,10 +69,10 @@ body.tailerBody {
 
 .dmundra .navbar .horizontal li.level1,
 .dmundra .subNavCrumbTrail {
-    border-top-color: #282828;
-    border-right-color: #282828;
-    border-bottom-color: #282828;
-    border-left-color: #282828;
+    border-top-color: #161616;
+    border-right-color: #161616;
+    border-bottom-color: #161616;
+    border-left-color: #161616;
 }
 
 .dmundra .navbar .horizontal li.level1:last-child {
@@ -134,6 +137,24 @@ body.tailerBody {
     border-color: #282828;
 }
 
+.dmundra [id*="context_menu_popup"] {
+    border: 1px solid #282828;
+    box-shadow: 0px 0px 5px #282828;
+}
+
+.dmundra [id*="context_menu_popup"] a {
+    background-color: #101010;
+}
+
+.dmundra [id*="context_menu_popup"] .pop_divider {
+    border-color: #282828;
+    background-color: #202020;
+}
+
+.dmundra #HostSelector-hostFoldersTreeWrapper {
+    background-color: #202020;
+    border-color: #282828;
+}
 
 .dmundra #filterWrapper a[style] {
     background-color: #101010 !important;
@@ -492,6 +513,7 @@ tr.alternate_1:hover {
 
 
 /* MCE Panel */
+/*
 .dmundra .mce-tinymce.mce-container.mce-panel .mce-menubar.mce-toolbar {
     background-color: #121212;
     color: #bbb;
@@ -552,7 +574,7 @@ tr.alternate_1:hover {
 .dmundra .mce-panel.mce-statusbar .mce-wordcount {
     color: #bbb;
     text-shadow: none;
-}
+}*/
 
 /* Dialog */
 .dmundra .dijitDialog {
