@@ -23,6 +23,16 @@ body:not(#tinymce) {
     background-color: #3a3847;
 }
 
+[_nghost-c31] {
+    background-color: #3a3847;
+    color: #ccc;
+}
+
+p-toolbar[_ngcontent-c5] .ui-toolbar, .ui-widget-header {
+    background-color: #3a3847;
+    color: #ccc;
+}
+
 /* Structure */
 
 
