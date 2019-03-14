@@ -23,10 +23,11 @@ body:not(#tinymce) {
     background-color: #3a3847;
 }
 
-[_nghost-c31] {
+.layout__main, [_nghost-c31], [_nghost-c34] {
     background-color: #3a3847;
     color: #ccc;
 }
+
 
 p-toolbar[_ngcontent-c5] .ui-toolbar, .ui-widget-header {
     background-color: #3a3847;
@@ -34,7 +35,14 @@ p-toolbar[_ngcontent-c5] .ui-toolbar, .ui-widget-header {
 }
 
 /* Structure */
+[_nghost-c34] .ui-table-wrapper {
+    background-color: #3a3847;
+    color: #ccc;
+}
 
+dot-content-types, dot-listing-data-table {
+    background-color: #3a3847;
+}
 
 dot-root dot-listing-data-table {
     background-color: #3a3847;
@@ -61,6 +69,11 @@ dot-root .ui-datatable-tablewrapper .ui-datatable-data tr:nth-child(even) {
 }
 
 dot-root .ui-datatable-tablewrapper .ui-datatable-data td {
+    color: #ccc;
+    border-color: #938eb5 !important;
+}
+
+dot-root .ui-table .ui-table-tbody tr td {
     color: #ccc;
     border-color: #938eb5 !important;
 }
@@ -121,6 +134,10 @@ dot-content-type-layout .ui-button.ui-button-icon-only:not([disabled]) [class^=u
     color: #9982e2;
 }
 
+dot-content-types .ui-table .ui-table-tbody tr:hover {
+    background-color: #434152 !important;
+}
+
 
 /* Content Editor */
 
@@ -143,6 +160,10 @@ body.dotcms .content-edit-actions #contentletActionsHanger a {
     background-color: #312f3c;
     border-color: #938eb5;
     color: #9982e2;
+}
+
+dot-root .dialog__header[style*='background-color: rgb(241, 243, 244);'] {
+    background-color: #312f3c !important;
 }
 
 /* Main/Site Browser */
