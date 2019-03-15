@@ -28,6 +28,11 @@ body:not(#tinymce) {
     color: #ccc;
 }
 
+.layout__main > * {
+    background-color: #3a3847;
+    color: #ccc;
+}
+
 
 p-toolbar[_ngcontent-c5] .ui-toolbar, .ui-widget-header {
     background-color: #3a3847;
@@ -35,7 +40,7 @@ p-toolbar[_ngcontent-c5] .ui-toolbar, .ui-widget-header {
 }
 
 /* Structure */
-[_nghost-c34] .ui-table-wrapper {
+dot-content-types .ui-table .ui-table-wrapper  {
     background-color: #3a3847;
     color: #ccc;
 }
@@ -95,6 +100,11 @@ dot-content-type-layout .ui-tabview .ui-tabview-nav .ui-tabview-title {
     color: #af9aef;
 }
 
+.layout__main dot-api-link a {
+    color: #7c66c1;
+    border-color: #7c66c1;
+}
+
 dot-content-type-layout div#content-type-form-main.content-type__fields-main {
     background-color: #3a3847;
     color: #ccc;
@@ -138,8 +148,36 @@ dot-content-types .ui-table .ui-table-tbody tr:hover {
     background-color: #434152 !important;
 }
 
+.content-type-fields-drop-zone dot-content-type-fields-row {
+    background-color: #312f3c !important;
+}
+
+.content-type-fields-drop-zone dot-content-type-fields-row .row-columns {
+    background-color: #312f3c !important;
+}
+
+.content-type-fields-drop-zone dot-content-type-fields-row dot-content-type-field-dragabble-item {
+    background-color: #3a3847 !important;
+}
+
+.content-type-fields-drop-zone dot-content-type-fields-row dot-content-type-field-dragabble-item:hover {
+    background-color: #434152 !important;
+}
+
+.form__field-variable {
+    color: #ccc !important;
+}
+
 
 /* Content Editor */
+
+.form__group label.form__label {
+    color: #ccc !important;
+}
+
+.site-selector__field span {
+    color: #ccc !important;
+}
 
 body.dotcms .content-edit__sidebar {
     background-color: #312f3c;
@@ -303,6 +341,14 @@ dot-root .fieldWrapper span {
 
 dot-root .fieldWrapper span.required2 {
     color: #e2402c;
+}
+
+.dialog__header, .dialog__content, .dialog__footer {
+    background-color: #3a3847 !important;
+}
+
+dot-root .ui-dialog-content, dot-root .ui-dialog-footer {
+    background-color: #3a3847 !important;
 }
 
 
