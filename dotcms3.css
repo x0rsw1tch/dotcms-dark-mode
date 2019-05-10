@@ -251,7 +251,10 @@ div[style*="border:1px silver solid;"] {
 dt {
     font-size: 1rem;
     line-height: 1.25;
-    vertical-align: middle;
+}
+
+dd {
+    line-height: 1.33;
 }
 
 .dmundra .dijitButtonNode {
