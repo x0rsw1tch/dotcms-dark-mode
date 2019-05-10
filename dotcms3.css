@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
+
 /***********
 ** Global **
 ***********/
-
 body.dmundra {
     background-color: #3a3847;
     color: #acacac;
 }
+
 
 .dmundra a {
     color: #ce7ce2;
@@ -33,6 +34,7 @@ div[style*="border:1px silver solid;"] {
     border-color: #5f5d6d !important;
 }
 
+
 .dmundra {
     background-color: #3a3847;
     font-family: Roboto, 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
@@ -48,9 +50,7 @@ div[style*="border:1px silver solid;"] {
     color: #f31f1f;
 }
 
-
 /* Scrollbar */
-
 *::-webkit-scrollbar {
     width: 12px;
     background-color: #3a3847;
@@ -72,7 +72,6 @@ div[style*="border:1px silver solid;"] {
 
 
 /* Top Section */
-
 .dmundra .bannerBG, .dmundra .imageBG {
     background-image: none;
     background-color: #3a3847;
@@ -84,7 +83,6 @@ div[style*="border:1px silver solid;"] {
 
 
 /* Box in Corner */
-
 .dmundra [widgetid="portal_login_as_user_popup"] {
     background-color: #3a3847;
     color: #acacac;
@@ -93,10 +91,10 @@ div[style*="border:1px silver solid;"] {
 }
 
 
+
 /********
 ** Nav **
 ********/
-
 .dmundra #hd {
     background-color: #312f3c;
     box-shadow: 0 -14px 28px rgba(0, 0, 0, 0.40), -10px 20px 16px rgba(0, 0, 0, 0.26), 10px 20px 16px rgba(0, 0, 0, 0.26);
@@ -145,10 +143,10 @@ div[style*="border:1px silver solid;"] {
 }
 
 
+
 /************
 ** Sub-Nav **
 ************/
-
 .dmundra .subNavCrumbTrail {
     margin-top: -10px;
 }
@@ -156,7 +154,6 @@ div[style*="border:1px silver solid;"] {
 .dmundra #selectHostDiv {
     background-image: none;
 }
-
 .dmundra #selectHostDiv a {
     color: #acacac;
 }
@@ -185,10 +182,10 @@ div[style*="border:1px silver solid;"] {
 }
 
 
+
 /**********
 ** Icons **
 **********/
-
 .chevronExpandIcon {
     filter: invert(0.7) hue-rotate(225deg);
 }
@@ -205,7 +202,6 @@ div[style*="border:1px silver solid;"] {
 /************************
 ** Main Section / Body **
 ************************/
-
 .dmundra .dijitLayoutContainer {
     background-image: none;
     background-color: #3a3847;
@@ -248,10 +244,10 @@ div[style*="border:1px silver solid;"] {
 }
 
 
+
 /***********
 ** Fields **
 ***********/
-
 dt {
     font-size: 1rem;
     line-height: 1.33;
@@ -271,9 +267,7 @@ dt {
     color: #c336e5;
 }
 
-
 /* Combobox */
-
 .dmundra .dijitComboBox {
     background-image: none;
     background-color: #312f3c;
@@ -299,9 +293,7 @@ dt {
     filter: invert(0.5) grayscale(100%) sepia(100%) hue-rotate(255deg);
 }
 
-
 /* Drop down */
-
 .dmundra .dijitComboBoxMenu {
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
@@ -328,9 +320,7 @@ dt {
     color: #b6b6b6;
 }
 
-
 /* DropDown Alt */
-
 .dmundra .dijitDropDownButton .dijitButtonNode {
     border: 1px solid #c336e5;
     color: #c336e5;
@@ -351,20 +341,16 @@ dt {
 
 
 /* Button: Disabled */
-
 .dmundra .dijitButton.dijitButtonDisabled .dijitButtonNode {
     background-image: none;
     border-color: #5f5d6d;
     background-color: #312f3c;
 }
-
 .dmundra .dijitButton.dijitButtonDisabled .dijitButtonNode .dijitButtonText {
     color: #54525f;
 }
 
-
 /* Button Regular */
-
 .dmundra .dijitButton .dijitButtonNode {
     background-image: none;
     border-color: #c336e5;
@@ -377,9 +363,7 @@ dt {
     border-color: #dfa5ec;
 }
 
-
 /* Combobutton */
-
 .dmundra .dijitComboButton .dijitButtonNode {
     background-image: none;
     border-color: #c336e5;
@@ -407,9 +391,7 @@ dt {
     border-color: #dfa5ec;
 }
 
-
 /* Text Box */
-
 .dmundra .dijitTextBox {
     background-image: none;
     background-color: #312f3c;
@@ -421,9 +403,7 @@ dt {
     border: none !important;
 }
 
-
 /* Language Variables */
-
 input, input[type="text"], textarea, select {
     background-image: none;
     background-color: #312f3c;
@@ -439,9 +419,7 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
     box-shadow: none;
 }
 
-
 /* field Label */
-
 .fieldName span {
     color: #b6b6b6;
 }
@@ -454,9 +432,7 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
     color: #c336e5;
 }
 
-
 /* Checkbox */
-
 .dijitCheckBox {
     filter: invert(1) grayscale(100%) sepia(100%) hue-rotate(255deg) saturate(8) opacity(0.5);
 }
@@ -465,9 +441,7 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
     filter: invert(1) grayscale(100%) sepia(100%) hue-rotate(255deg) saturate(8) opacity(0.5);
 }
 
-
 /* Checkbox Disabled */
-
 .dijitCheckBox.dijitCheckBoxDisabled {
     filter: invert(1) grayscale(100%) sepia(100%) hue-rotate(255deg) opacity(0.66);
 }
@@ -476,9 +450,7 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
     filter: invert(1) grayscale(100%) sepia(100%) hue-rotate(255deg) opacity(0.66);
 }
 
-
 /* Radio */
-
 .dmundra .dijitRadio {
     filter: invert(1) grayscale(100%) sepia(100%) hue-rotate(255deg) saturate(8) opacity(0.5);
 }
@@ -487,9 +459,7 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
     filter: invert(1) grayscale(100%) sepia(100%) hue-rotate(255deg) opacity(0.66);
 }
 
-
 /* Host Select */
-
 .dmundra .dijitHostFoldersTreeWrapper {
     background-color: #3a3847;
     border: none;
@@ -505,9 +475,7 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
     color: #b6b6b6;
 }
 
-
 /* Divider */
-
 .dmundra .lineDividerTitle {
     background-color: #2a2833;
     border: none;
@@ -518,10 +486,7 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
 /*************
 ** Controls **
 **************/
-
-
 /* Draggable Splitter */
-
 .dmundra .dijitSplitter {
     background-color: #2a2833;
 }
@@ -530,18 +495,14 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
     filter: invert(0.7) grayscale(100%) sepia(100%) hue-rotate(255deg);
 }
 
-
 /* Site Browser Advanced Toggle */
-
 [dojotype="dijit.layout.ContentPane"] a[style*="background:#f1f1f1"] {
     background-color: #312f3c !important;
     color: #c336e5;
     border-top: none !important;
 }
 
-
 /* Tabs */
-
 .dmundra [role="tablist"] {
     border: none;
 }
@@ -562,18 +523,14 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
     background-color: #3a3847;
 }
 
-
 /* Permissions */
-
 .dmundra .dijitAccordionTitle {
     background: #2a2833;
     color: #b6b6b6;
     border: none;
 }
 
-
 /* Popup */
-
 .dmundra .dijitTooltipContainer {
     background: #434152;
     color: #acacac;
@@ -585,9 +542,7 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
     filter: invert(0.5) grayscale(100%) hue-rotate(135deg) opacity(0.33);
 }
 
-
 /* Enterprise Images */
-
 .wrapperCluster {
     background-image: none;
 }
@@ -596,9 +551,7 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22), 0 -10px 12px rgba(0, 0, 0, 0.16) !important;
 }
 
-
 /* Dialog */
-
 .dmundra .dijitDialogUnderlay._underlay {
     background-color: black;
     opacity: 0.66;
@@ -631,9 +584,7 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
     margin-bottom: 0.5rem;
 }
 
-
 /* Dialog Table */
-
 .dmundra .sTypeTable {
     border: none;
 }
@@ -651,12 +602,11 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
     background-color: #434152;
 }
 
-
 /* File Browse Dialog */
-
 .dmundra div[dojoattachpoint="foldersContentPane"] {
     border: none !important;
 }
+
 
 .dmundra div[dojoattachpoint="tablesContentPane"] {
     border: none !important;
@@ -678,9 +628,7 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
     filter: invert(1) grayscale(100%) sepia(100%) hue-rotate(255deg) opacity(0.66);
 }
 
-
 /* Account Drop down */
-
 .dmundra #closeTab {
     background: rgba(0, 0, 0, 0.7)
 }
@@ -694,10 +642,12 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
     color: #ce7ce2;
 }
 
+
 .dmundra .account-flyout a:hover {
     background-color: #434152;
     color: #dfa5ec;
 }
+
 
 .dmundra .account-flyout .service-links {
     border: none;
@@ -716,9 +666,7 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
     background-color: #434152;
 }
 
-
 /* Progress Bar */
-
 .dmundra .dijitDialog .dijitProgressBarEmpty {
     background-color: #3a3847;
     background-image: none;
@@ -737,7 +685,6 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
 
 
 /* Context */
-
 .dmundra .contextPopupMenuBox {
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22), 0 -10px 12px rgba(0, 0, 0, 0.16);
     border: none;
@@ -758,11 +705,9 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
     background-color: #2a2833;
 }
 
-
 /********************
 ** Content Manager **
 ********************/
-
 .dmundra .listingTable {
     border: none;
 }
@@ -804,7 +749,6 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
 /*******************
 ** Content Editor **
 *******************/
-
 .dmundra .gradient2 {
     background: #2a2833 !important;
 }
@@ -859,11 +803,9 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
     border: none;
 }
 
-
 /*****************
 ** Site Browser **
 *****************/
-
 .dmundra .buttonBoxLeft {
     color: #b6b6b6;
 }
@@ -893,10 +835,10 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
 }
 
 
+
 /************************
 ** Content Type Editor **
 ************************/
-
 .dmundra #fieldsTable {
     border: none;
 }
@@ -924,7 +866,6 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
 /*****************
 ** User Manager **
 *****************/
-
 .dmundra .dojoxGrid .dojoxGridCell {
     border: none;
 }
@@ -981,7 +922,6 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
 /***************
 ** Categories **
 ***************/
-
 .dmundra .dojoxGridScrollbox .dojoxGridRowOver .dojoxGridCell {
     background-color: #85279c;
     color: #dfa5ec;
@@ -1013,10 +953,10 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
 }
 
 
+
 /*************
 ** Calendar **
 *************/
-
 .dmundra #dailyEvents h3, .dmundra #ongoingEvents h3 {
     background-color: #312f3c;
     border: none;
@@ -1034,18 +974,14 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
     background-color: #461352;
 }
 
-
 /****************
 ** Maintenance **
 ****************/
-
 .dmundra .listingTable.shadowBox {
     box-shadow: none;
 }
 
-
 /* Index */
-
 .dmundra .listingTable .trIdxActive td {
     background-color: #1b5e05;
 }
@@ -1054,11 +990,9 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
     background-color: #8e5216;
 }
 
-
 /**************
 ** Templates **
 **************/
-
 #bodyTemplate #hd-template, #bodyTemplate #ft-template {
     background-color: #2a2833;
     border: none;
@@ -1085,7 +1019,6 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
 /****************
 ** Page Editor **
 ****************/
-
 .dmundra .sideMenu .pageTools {
     background-color: #3a3847;
     border: none;
@@ -1103,11 +1036,9 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
     border-right: 1px solid #5f5d6d;
 }
 
-
 /******************
 ** Notifications **
 ******************/
-
 .dmundra #notificationsDiv {
     border: none;
     background-color: #2a2833;
@@ -1117,11 +1048,9 @@ div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
     background-color: #2a2833;
 }
 
-
 /**********
 ** Alert **
 **********/
-
 .dmundra .alert {
     border: none;
 }
@@ -1135,11 +1064,9 @@ div[widgetid="licenseTabContent"] a[style] {
     color: #ce7ce2 !important;
 }
 
-
 /************
 ** Cluster **
 ************/
-
 .dmundra #actionPanel {
     background-color: #2a2833;
     border: none;
@@ -1154,11 +1081,9 @@ div[widgetid="licenseTabContent"] a[style] {
     border-color: #5f5d6d;
 }
 
-
 /****************
 ** Tag Manager **
 ****************/
-
 .dmundra .dojoxGridRowbarInner {
     border-bottom: none;
 }
@@ -1169,20 +1094,16 @@ div[widgetid="licenseTabContent"] a[style] {
     border-right: none;
 }
 
-
 /**************
 ** Workflows **
 **************/
-
 .dmundra #wfStepsBoundingBoxMain {
     border-color: #c336e5;
 }
 
-
 /*****************
 ** Link Checker **
 *****************/
-
 .dmundra #brokenLinkMain .dijitBorderContainer-child {
     background-color: #3a3847;
     border: none;
@@ -1192,11 +1113,9 @@ div[widgetid="licenseTabContent"] a[style] {
     background: #312f3c;
 }
 
-
 /**************
 ** Dashboard **
 **************/
-
 .dmundra .roundBox[style*="background:#f1f1f1;"] {
     background-color: #3a3847 !important;
     border: none;
@@ -1206,7 +1125,6 @@ div[widgetid="licenseTabContent"] a[style] {
 /***************************
 ** Some Fixes for dotcms2 **
 ***************************/
-
 .dmundra #menu ul.horizontal > li.level1:not(.level2) {
     background: #312f3c !important;
     border: none;
@@ -1258,4 +1176,15 @@ div[widgetid="licenseTabContent"] a[style] {
 .dmundra #menu ul.dropdown li.level1 ul.level2 li.level2 a:hover {
     background-color: #85279c;
     color: #b6b6b6;
+}
+
+.dmundra #borderContainer.shadowBox {
+    background: none;
+    border: none;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22), 0 -10px 12px rgba(0, 0, 0, 0.16) !important;
+}
+
+#uploadLicenseForm > div[style*="background:#eee;"] {
+    background: #312f3c !important;
+    border: none !important;
 }
