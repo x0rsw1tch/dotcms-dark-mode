@@ -1,642 +1,1199 @@
-/* Header */
-body.dmundra,
-.portlet-wrapper,
-.listingTable th {
-    background-color: #121212;
-    color: #bbb;
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+/***********
+** Global **
+***********/
+
+body.dmundra {
+    background-color: #3a3847;
+    color: #acacac;
 }
 
-body.tailerBody {
-    color: #bbb;
-    font-size: 13px;
+.dmundra a {
+    color: #ce7ce2;
 }
 
-.dmundra .imageBG,
-.dmundra .bannerBG,
-.dmundra .tabLeft,
-.dmundra .subNavCrumbTrail,
-.dmundra .subNavCrumbTrail li {
+.dmundra label {
+    color: #acacac;
+}
+
+.dmundra pre {
+    background-color: #2a2833;
+}
+
+.dmundra hr {
+    background-color: #5f5d6d;
+}
+
+.dmundra fieldset {
+    border-color: #3e3c48;
+}
+
+div[style*="border:1px silver solid;"] {
+    border-color: #5f5d6d !important;
+}
+
+.dmundra {
+    background-color: #3a3847;
+    font-family: Roboto, 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
+}
+
+.dmundra #bd {
+    background-color: #3a3847;
+    border: none;
+    box-shadow: none;
+}
+
+
+/* Top Section */
+
+.dmundra .bannerBG, .dmundra .imageBG {
     background-image: none;
-    background-color: #121212;
+    background-color: #3a3847;
 }
 
-/* Navbar */
-.dmundra #main_window.sideMenu .dijitLayoutContainer {
-    background-color: #121212;
-}
-
-.dmundra #main_window.sideMenu .pageTools a {
-    color: #bbb;
-}
-
-.dmundra #main_window.sideMenu .pageTools,
-.dmundra #main_window.sideMenu .lang,
-.dmundra #buttonRow {
-    border-color: #282828;
+.dmundra #admin-site-tools-div a {
+    color: #b6b6b6;
 }
 
 
-.dmundra #min_bar[style],
-.dmundra #max_bar[style] {
-    background-color: #181818 !important;
-    border-color: #282828;
+/* Box in Corner */
+
+.dmundra [widgetid="portal_login_as_user_popup"] {
+    background-color: #3a3847;
+    color: #acacac;
+    box-shadow: none !important;
+    border-color: #5f5d6d;
 }
 
-.dmundra .navbar li .navMenu-title,
-.dmundra .browserTable td a {
-    color: #bbb;
-    font-family: Helvetica, 'Segoe UI', Arial, sans-serif;
-    font-size: 14px;
+
+/********
+** Nav **
+********/
+
+.dmundra #hd {
+    background-color: #312f3c;
+    box-shadow: 0 -14px 28px rgba(0, 0, 0, 0.40), -10px 20px 16px rgba(0, 0, 0, 0.26), 10px 20px 16px rgba(0, 0, 0, 0.26);
 }
 
-.dmundra .navbar li .navMenu-subtitle {
+.dmundra .navbar .horizontal li.level1 {
+    background-color: #312f3c;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-right: 0.1rem;
+    font-size: 1rem;
+}
+
+.dmundra .navbar .horizontal li.level1 a div[class*="-title"] {
+    color: #b6b6b6;
+}
+
+.dmundra .navbar .horizontal li.level1 a div[class*="-subtitle"] {
     color: #999;
+    opacity: 0.5;
+}
+
+.dmundra .navbar .horizontal li.level1.active a div[class*="-title"] {
+    color: #c336e5;
+}
+
+.dmundra #menu.navbar .dropdown {
+    background-color: #312f3c;
+    border: none;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22), 0 -10px 12px rgba(0, 0, 0, 0.16) !important;
+}
+
+.dmundra #menu.navbar .dropdown a {
+    background-color: #312f3c;
+    color: #acacac;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.dmundra #menu.navbar .dropdown a:hover {
+    background-color: #85279c;
+    color: #b6b6b6;
 }
 
 
-.dmundra li.level1 .navMenu-title {
-    color: #999;
-}
-
-.dmundra #menu ul.horizontal li.level1 .tabLeft {
-    background-image: none;
-    background-color: #121212;
-}
-
-.dmundra .navbar .horizontal li.level1.active .navMenu-title {
-    color: #eee;
-}
-
-.dmundra .navbar .horizontal li.level1,
-.dmundra .subNavCrumbTrail {
-    border-top-color: #161616;
-    border-right-color: #161616;
-    border-bottom-color: #161616;
-    border-left-color: #161616;
-}
-
-.dmundra .navbar .horizontal li.level1:last-child {
-    border-right-color: #282828;
-}
-
-.dmundra .navbar .dropdown li.level2 a {
-    background-color: #121212;
-    color: #bbb;
-}
-
-.dmundra .navbar .dropdown li.level2 a:hover {
-    background-color: #282828;
-    color: #eee;
-}
-
-#menu ul.dropdown li.level2 a {
-    background-color: #282828;
-    color: #eee;
-}
-
-.dmundra .navbar .dropdown {
-    border-color: #282828;
-}
+/************
+** Sub-Nav **
+************/
 
 .dmundra .subNavCrumbTrail {
-    border-bottom-color: #282828 !important;
+    margin-top: -10px;
 }
 
 .dmundra #selectHostDiv {
     background-image: none;
 }
 
-.dmundra #bd,
-#hd {
-    border-color: #282828;
-    box-shadow: none;
-}
-
-.dmundra #bd {
-    background-color: #121212 !important;
-    border-color: #282828 !important;
+.dmundra #selectHostDiv a {
+    color: #acacac;
 }
 
 .dmundra .subNavCrumbTrail .lastCrumb {
+    background-position: -6px -362px;
+}
+
+.dmundra .subNavCrumbTrail {
+    font-size: 1rem;
     background-image: none;
+    border: none;
+    background-color: #312f3c;
+    color: #acacac;
 }
 
-/* Everything Else */
-.dmundra .dijitContentPane {
-    background-color: #121212;
-    border-color: #282828;
+.subNavCrumbTrail li {
+    font-size: 1rem;
+    background-image: none;
+    border: none;
+    background-color: #312f3c;
 }
 
-.dmundra .dijitTextBox,
-.dmundra .dijitComboBox,
-.dmundra .dijitSpinner,
-.dmundra .dijitTextArea,
-.dmundra .dijitInlineEditor input {
-    background-image: none !important;
-    background-color: #101010;
-    border-color: #282828;
+.subNavCrumbTrail li a {
+    color: #acacac;
 }
 
-.dmundra [id*="context_menu_popup"] {
-    border: 1px solid #282828;
-    box-shadow: 0px 0px 5px #282828;
+
+/**********
+** Icons **
+**********/
+
+.chevronExpandIcon {
+    filter: invert(0.7) hue-rotate(225deg);
 }
 
-.dmundra [id*="context_menu_popup"] a {
-    background-color: #101010;
+.previousIcon, .nextIcon {
+    filter: invert(1) grayscale(100%) sepia(100%) hue-rotate(255deg) saturate(8) opacity(0.5);
 }
 
-.dmundra [id*="context_menu_popup"] .pop_divider {
-    border-color: #282828;
-    background-color: #202020;
-}
 
-.dmundra #HostSelector-hostFoldersTreeWrapper {
-    background-color: #202020;
-    border-color: #282828;
-}
-
-.dmundra #filterWrapper a[style] {
-    background-color: #101010 !important;
-    color: #eee;
-}
+/************************
+** Main Section / Body **
+************************/
 
 .dmundra .dijitLayoutContainer {
     background-image: none;
-    box-shadow: none;
-    border-color: #282828;
+    background-color: #3a3847;
+    color: #acacac;
+    border: none;
 }
 
-.dmundra .listingTable,
-.dmundra .listingTable th,
-.listingTable td {
-    border-color: #282828;
-}
-
-.dmundra a {
-    color: #d9d9d9;
-}
-
-.dmundra #TreeUL,
-#TreeUL a,
-.dmundra .browserTable td a {
-    color: #bbb !important;
-}
-
-.dmundra .buttonRow-left {
-    background-color: #121212;
-}
-
-.dmundra .buttonRow-left .gradient {
-    background-image: -webkit-linear-gradient(top, #181818 0%, #242424 100%);
-    color: #bbb;
-    border-color: #282828;
-}
-
-.dmundra .gradient2 {
-    background-image: -webkit-linear-gradient(top, #121212 0%, #121212 100%);
-}
-
-.dmundra #contentletActionsHanger > a,
-#contentletActionsHanger > a[style] {
-    background-color: #101010 !important;
-    border-color: #282828;
-    color: #bbb;
-}
-
-.dmundra .pageTools {
-    background-color: #101010;
-}
-
-.dmundra .dijitTab {
-    background-color: #121212;
-    background-image: none;
-    border-color: #282828;
-}
-
-.dmundra .dijitTabContainerTop-tabs .dijitTabChecked {
-    background-color: #242424;
-    border-color: #282828;
-    border-color: #282828;
-}
-
-.dmundra input,
-textarea,
-select {
-    background-color: #101010;
-    color: #bbb;
-    border-color: #282828;
-}
-
-
-.dmundra .dijitTextBox,
-.dmundra .dijitComboBox,
-.dmundra .dijitSpinner,
-.dmundra .dijitTextArea,
-.dmundra .dijitInlineEditor input {
-    background-image: none;
-    background-color: #101010;
-}
-
-.dmundra .callOutBox2 {
-    background-color: #101010;
-    border-color: #282828;
+.dmundra #dotAjaxMainDiv.dijitContentPane {
+    box-shadow: 0 48px 48px rgba(0, 0, 0, 0.30), 10px 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .dmundra #mainTabContainer {
-    border-color: #282828;
     box-shadow: none;
 }
 
-.dmundra .permissionTable {
-    background-image: none;
-    border-color: #282828;
+.dmundra .dijitLayoutContainer:not(.dijitTabController) {
+    box-shadow: none;
 }
 
-.dmundra .dijitAccordionTitle {
-    background-image: none;
-    background-color: #101010;
-    border-color: #282828;
+.dmundra #mainTabContainer {
+    border: none;
 }
 
-.dmundra .dijitCheckBox,
-.dmundra .dijitCheckBoxIcon {
-    filter: invert(1);
-    border-color: #282828;
+.dmundra .portlet-wrapper {
+    background: transparent;
 }
 
-.dmundra tr.alternate_1 {
-    background-color: #101010;
-    transition: background-color 300ms ease-in-out;
+.dmundra .lineRight {
+    border-right: none;
 }
 
-.dmundra tr.alternate_2 {
-    background-color: #181818;
-    transition: background-color 300ms ease-in-out;
+.dmundra .dijitTabPaneWrapper {
+    border-top: none;
+    background-color: #3a3847;
 }
 
-.dmundra tr.alternate_2:hover,
-tr.alternate_1:hover {
-    background-color: #282828 !important;
-    transition: background-color 300ms ease-in-out;
+.dmundra .dijitTabContainerTop-dijitContentPane {
+    border-top: none;
+    background-color: #3a3847;
 }
 
-.dmundra .required2 {
-    color: #ec3838;
-}
 
-.dmundra .dijitSplitterH,
-.dmundra .dijitGutterH {
-    background-color: #181818;
-}
+/***********
+** Fields **
+***********/
 
-.dmundra .dijitSplitterH .dijitSplitterThumb {
-    filter: invert(1);
-}
-
-.dmundra .contentRowSelected {
-    background-color: #282828 !important;
-}
-
-.dmundra .contentRowRoller {
-    background-color: #242424 !important;
+dt {
+    font-size: 1rem;
+    line-height: 1.33;
 }
 
 .dmundra .dijitButtonNode {
-    border-color: #282828;
-    color: #666;
-}
-
-.dmundra td.dijitDownArrowButton {
-    border-right-color: #282828;
-}
-
-.dmundra .dijitButtonNode {
-    background-color: #101010;
-    color: #bbb;
-    border-color: #282828;
+    background: none;
     background-image: none;
-    border-width: 1px;
 }
 
-.dmundra .dijitButtonDisabled .dijitButtonNode {
-    background-color: #282828;
-    border-color: #282828;
+.dmundra .dijitComboButtonHover .dijitButtonContents {
+    background: none;
+    color: #c336e5;
+}
+
+
+/* Combobox */
+
+.dmundra .dijitComboBox {
     background-image: none;
-    border-width: 1px;
+    background-color: #312f3c;
+    border: none;
 }
 
-.dmundra .dijitDisabled .dijitButtonText {
-    color: #666;
+.dmundra .dijitDownArrowButton {
+    background-color: #312f3c;
+    border-top: 1px solid #c336e5;
+    border-left: none;
 }
 
-.dmundra .dijitComboBox .dijitButtonNode {
-    border-color: #282828;
+.dmundra .dijitDownArrowButton .dijitArrowButtonInner {
+    filter: invert(0.5) grayscale(100%) sepia(100%) hue-rotate(255deg);
 }
 
-.dmundra .dijitComboBox .dijitArrowButton .dijitArrowButtonInner {
-    filter: invert(1);
+.dmundra .dijitComboBox .dijitArrowButtonContainer {
+    background: none;
+    border: none;
 }
 
-.dmundra .dijitButton.dijitButtonHover .dijitButtonNode {
-    background-color: #282828;
+.dmundra .dijitComboBox .dijitDownArrowButton .dijitArrowButtonInner {
+    filter: invert(0.5) grayscale(100%) sepia(100%) hue-rotate(255deg);
+}
+
+
+/* Drop down */
+
+.dmundra .dijitComboBoxMenu {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.dmundra .dijitPopup .dijitMenu {
+    background-color: #312f3c;
+    color: #acacac;
+    border: none;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22), 0 -10px 12px rgba(0, 0, 0, 0.16) !important;
+}
+
+.dmundra .dijitPopup .dijitMenu .dijitMenuItem {
+    padding-top: 0.33rem;
+    padding-bottom: 0.33rem;
+}
+
+.dmundra .dijitPopup .dijitMenu .dijitMenuItem:hover {
+    background-color: #85279c;
+    color: #b6b6b6;
+}
+
+.dmundra .dijitPopup .dijitMenu .dijitMenuItemSelected {
+    background-color: #79248e;
+    color: #b6b6b6;
+}
+
+
+/* DropDown Alt */
+
+.dmundra .dijitDropDownButton .dijitButtonNode {
+    border: 1px solid #c336e5;
+    color: #c336e5;
+}
+
+.dmundra .dijitDropDownButton .dijitDownArrowButton {
+    border: none;
+}
+
+.dmundra .dijitDropDownButtonHover .dijitButtonNode {
+    color: #b6b6b6;
+    background: #312f3c !important;
+}
+
+.dmundra .dijitDropDownButtonHover .dijitDownArrowButton {
+    color: #dfa5ec;
+}
+
+
+/* Button: Disabled */
+
+.dmundra .dijitButton.dijitButtonDisabled .dijitButtonNode {
     background-image: none;
-    color: #bbb;
-    border-width: 0;
+    border-color: #5f5d6d;
+    background-color: #312f3c;
 }
 
-.dmundra .catPreview {
-    background-color: #101010;
-    border-color: #282828 !important;
+.dmundra .dijitButton.dijitButtonDisabled .dijitButtonNode .dijitButtonText {
+    color: #54525f;
 }
 
-.dmundra .catPreview > li {
-    background-color: #101010;
-    border-color: #48abd4;
-    color: #bbb;
-}
 
-.dmundra .dijitSplitterV {
-    background-color: #282828;
-}
+/* Button Regular */
 
-.dmundra *::-webkit-scrollbar {
-    width: 1em;
-}
-
-.dmundra *::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-.dmundra *::-webkit-scrollbar-thumb {
-    background-color: #282828;
-}
-
-.dmundra input {
-    border-color: #282828;
-    border-style: solid;
-    border-width: 1px;
-}
-
-.dmundra .navDay a,
-.navLastDay a {
-    color: #bbb;
-}
-
-.dmundra .navSelectedDay.navDay a,
-.navSelectedDay.navLastDay a {
-    color: #333;
-}
-
-.dmundra #dailyEvents h3,
-#ongoingEvents h3 {
-    color: #bbb;
-    background-color: #101010;
-    border-color: #282828;
-}
-
-.dmundra #dailyEvents ul li,
-#ongoingEvents ul li {
-    border-color: #282828;
-}
-
-.dmundra .tundra .dojoxGridHeader .dojoxGridCell {
-    color: #bbb !important;
+.dmundra .dijitButton .dijitButtonNode {
     background-image: none;
-    background-color: #101010;
-    border-color: #282828;
+    border-color: #c336e5;
+    color: #c336e5;
+    background-color: #312f3c;
 }
 
-.dmundra .tundra .dojoxGridCell {
-    border-style: solid;
-    border-color: #282828;
-}
-
-
-
-.dmundra .dojoxGrid .dojoxGridRowOdd {
-    background-color: #101010;
-}
-
-.dmundra .dojoxGrid .dojoxGridRow {
-    background-color: #181818;
-}
-
-.dmundra .dojoxGridPaginator {
-    background-color: #101010;
-}
-
-.dmundra .dijitMenu {
-    background-color: #101010;
-    box-shadow: none;
-}
-
-.dmundra .dj_webkit .dmundra .dijitPopup .dijitMenu {
-    box-shadow: none;
-}
-
-.dmundra .dijitMenuItem.dijitMenuItemHover {
-    background-color: #282828;
+.dmundra .dijitButtonHover .dijitButtonNode {
+    color: #dfa5ec;
+    border-color: #dfa5ec;
 }
 
 
-.dmundra .dijitMenuItem.dijitMenuItemSelected {
-    background-color: #282828;
-    color: #eee;
+/* Combobutton */
+
+.dmundra .dijitComboButton .dijitButtonNode {
+    background-image: none;
+    border-color: #c336e5;
+    color: #c336e5;
+    background-color: #312f3c;
 }
+
+.dmundra .dijitButtonNodeHover {
+    background: none;
+}
+
+.dmundra .dijitButtonNodeHover .dijitButtonContents {
+    background: none;
+}
+
+.dmundra .dijitComboButtonHover .dijitButtonNodeHover {
+    border-color: #dfa5ec;
+}
+
+.dmundra .dijitComboButtonHover:hover .dijitButtonContents {
+    color: #dfa5ec;
+}
+
+.dmundra .dijitComboButtonHover .dijitArrowButton {
+    border-color: #dfa5ec;
+}
+
+
+/* Text Box */
+
+.dmundra .dijitTextBox {
+    background-image: none;
+    background-color: #312f3c;
+    border: none;
+}
+
+.dmundra .dijitTextBox[style*="border: 1px solid rgb(238, 238, 238);"] {
+    border: none !important;
+}
+
+
+/* Language Variables */
+
+input, input[type="text"], textarea, select {
+    background-image: none;
+    background-color: #312f3c;
+    color: #b6b6b6;
+    border: none;
+}
+
+
+/* field Label */
+
+.fieldName span {
+    color: #b6b6b6;
+}
+
+.fieldName .required2 {
+    color: #f31f1f;
+}
+
+.fieldValue a {
+    color: #c336e5;
+}
+
+
+/* Checkbox */
+
+.dijitCheckBox {
+    filter: invert(1) grayscale(100%) sepia(100%) hue-rotate(255deg) saturate(8) opacity(0.5);
+}
+
+.dijitCheckBox.dijitChecked {
+    filter: invert(1) grayscale(100%) sepia(100%) hue-rotate(255deg) saturate(8) opacity(0.5);
+}
+
+
+/* Checkbox Disabled */
+
+.dijitCheckBox.dijitCheckBoxDisabled {
+    filter: invert(1) grayscale(100%) sepia(100%) hue-rotate(255deg) opacity(0.66);
+}
+
+.dijitCheckBox.dijitChecked.dijitCheckedDisabled {
+    filter: invert(1) grayscale(100%) sepia(100%) hue-rotate(255deg) opacity(0.66);
+}
+
+
+/* Radio */
+
+.dmundra .dijitRadio {
+    filter: invert(1) grayscale(100%) sepia(100%) hue-rotate(255deg) saturate(8) opacity(0.5);
+}
+
+.dijitRadio.dijitRadioDisabled {
+    filter: invert(1) grayscale(100%) sepia(100%) hue-rotate(255deg) opacity(0.66);
+}
+
+
+/* Host Select */
+
+.dmundra .dijitHostFoldersTreeWrapper {
+    background-color: #3a3847;
+    border: none;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22), 0 -10px 12px rgba(0, 0, 0, 0.16) !important;
+}
+
+.dmundra .dijitHostFoldersTreeWrapper .dijitTreeNodeHover {
+    background-image: none;
+}
+
+.dmundra .dijitHostFoldersTreeWrapper .dijitTreeRow:hover {
+    background-color: #434152;
+    color: #b6b6b6;
+}
+
+
+/* Divider */
 
 .dmundra .lineDividerTitle {
-    background-color: #101010;
-    border-color: #282828;
-}
-
-.dmundra #contentActionsCp > a {
-    background-color: #101010;
-    color: #bbb;
-    border-color: #282828;
-}
-
-.dmundra #fieldsTable {
-    border-color: #282828 !important;
-}
-
-.dmundra #fieldsTableHeader {
-    background-color: #181818;
-}
-
-.dmundra #fieldsTable .item_header_cell {
-    background-color: #181818;
-    border-color: #282828 !important;
-}
-
-.dmundra #fieldsTable .dojoDndContainer .dojoDndItem[style] {
-    background-color: #181818 !important;
-}
-
-.dmundra #fieldsTable .dojoDndContainerOver .dojoDndItem[style] {
-    background-color: #181818 !important;
-}
-
-.dmundra #fieldsTable .dojoDndItem .item_cell[style] {
-    background-color: #181818 !important;
-    border-color: #282828 !important;
-}
-
-.dmundra .callOutBox {
-    background-color: #101010;
-    color: #bbb;
-}
-
-.dmundra .tundra .dojoxGridHeader {
-    background-color: #101010;
-}
-
-.dmundra .tundra .dojoxGridHeader .dojoxGridCell {
-    color: #bbb;
-}
-
-.dmundra .listingTable.actionTable tr {
-    background-color: #181818;
-}
-
-.dmundra .listingTable.actionTable tr.active {
-    background-color: #282828;
-}
-
-.dmundra #actionPanel {
-    background-color: #121212;
-}
-
-.dmundra #actionPanelContent #actionPanelContainer {
-    background-color: #121212;
+    background-color: #2a2833;
+    border: none;
+    color: #c336e5;
 }
 
 
-/* MCE Panel */
-/*
-.dmundra .mce-tinymce.mce-container.mce-panel .mce-menubar.mce-toolbar {
-    background-color: #121212;
-    color: #bbb;
+/*************
+** Controls **
+**************/
+
+
+/* Draggable Splitter */
+
+.dmundra .dijitSplitter {
+    background-color: #2a2833;
 }
 
-.dmundra .mce-menubar,
-.mce-tinymce {
-    border-color: #282828;
+.dmundra .dijitSplitter .dijitSplitterThumb {
+    filter: invert(0.7) grayscale(100%) sepia(100%) hue-rotate(255deg);
 }
 
 
-.dmundra .mce-menubar.mce-toolbar button span {
-    color: #bbb;
+/* Site Browser Advanced Toggle */
+
+[dojotype="dijit.layout.ContentPane"] a[style*="background:#f1f1f1"] {
+    background-color: #312f3c !important;
+    color: #c336e5;
+    border-top: none !important;
 }
 
-.dmundra .mce-menubar.mce-toolbar button i,
-.dmundra .mce-toolbar-grp.mce-panel .mce-btn-group .mce-btn button i {
-    border-top-color: #282828;
+
+/* Tabs */
+
+.dmundra [role="tablist"] {
+    border: none;
 }
 
-.dmundra .mce-toolbar-grp.mce-panel {
-    background-color: #121212;
+.dmundra [role="tablist"] .dijitTab {
+    background-image: none;
+    background-color: #3a3847;
+    border: none;
+    color: #c336e5;
+}
+
+.dmundra div[role="tablist"] .dijitTab.dijitTabChecked {
+    background-color: #434152;
+    color: #dfa5ec;
+}
+
+.dmundra .dijitTabPaneWrapper #properties {
+    background-color: #3a3847;
+}
+
+
+/* Permissions */
+
+.dmundra .dijitAccordionTitle {
+    background: #2a2833;
+    color: #b6b6b6;
+    border: none;
+}
+
+
+/* Popup */
+
+.dmundra .dijitTooltipContainer {
+    background: #434152;
+    color: #acacac;
+    border: none;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22), 0 -10px 12px rgba(0, 0, 0, 0.16) !important;
+}
+
+.dmundra .dijitTooltipConnector {
+    filter: invert(0.5) grayscale(100%) hue-rotate(135deg) opacity(0.33);
+}
+
+
+/* Enterprise Images */
+
+.wrapperCluster {
     background-image: none;
 }
 
-
-.dmundra .mce-toolbar-grp.mce-panel .mce-btn-group .mce-btn {
-    background-color: #101010;
-    background-image: none;
+.wrapperCluster .content {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22), 0 -10px 12px rgba(0, 0, 0, 0.16) !important;
 }
 
-.dmundra .mce-toolbar-grp.mce-panel .mce-btn-group .mce-btn button span {
-    color: #bbb;
-}
-
-.dmundra .mce-toolbar-grp.mce-panel .mce-btn-group .mce-btn i {
-    text-shadow: none;
-    color: #bbb;
-}
-
-.dmundra .mce-menu.mce-floatpanel:not(.mce-menu-sub) {
-    background-color: #101010;
-}
-
-.dmundra .mce-menu.mce-floatpanel:not(.mce-menu-sub) span {
-    color: #bbb;
-}
-
-.dmundra .mce-panel.mce-statusbar {
-    background-color: #121212;
-    background-image: none;
-}
-
-.dmundra .mce-panel.mce-statusbar .mce-path-item {
-    color: #bbb;
-}
-
-.dmundra .mce-panel.mce-statusbar .mce-wordcount {
-    color: #bbb;
-    text-shadow: none;
-}*/
 
 /* Dialog */
+
+.dmundra .dijitDialogUnderlay._underlay {
+    background-color: black;
+    opacity: 0.66;
+}
+
 .dmundra .dijitDialog {
-    background-color: #101010;
-    color: #bbb;
-    border-color: #282828;
-    box-shadow: 0px -4px 11px 0px rgba(0, 0, 0, 0.10),
-    0px 6px 11px 0px rgba(0, 0, 0, 0.10),
-    3px 1px 11px 0px rgba(0, 0, 0, 0.10),
-    -3px 1px 11px 0px rgba(0, 0, 0, 0.10);
+    background-color: #3a3847;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22), 0 -10px 12px rgba(0, 0, 0, 0.16) !important;
+    border: none;
 }
 
 .dmundra .dijitDialog .dijitDialogTitleBar {
+    background-color: #2a2833;
     background-image: none;
-    background-color: #101010;
-    color: #bbb;
+    font-size: 15px;
 }
 
-.dmundra .dijitDialog .dijitDialogPaneContent,
-.dmundra .dijitDialog .sTypeHeader {
-    background-color: #101010;
-    color: #bbb;
+.dmundra .dijitDialog .dijitDialogPaneContent {
+    background-color: #3a3847;
+    border: none;
 }
 
-.dmundra .dijitDialogUnderlay {
-    background-color: #111;
+.dmundra .dijitDialog .dijitDialogPaneContent .dojoDndContainer {
+    border-bottom-width: 0 !important;
 }
 
-/* Editor */
-span.xml-text,
-span.js-property,
-span.js-variable,
-span.css-identifier {
-    color: #a1a1a1;
+.dmundra .dijitDialog .dijitDialogPaneContent .dojoDndItem {
+    border-top-width: 0 !important;
+    border-bottom: 1px solid #5f5d6d;
+    margin-bottom: 0.5rem;
 }
 
-span.xml-punctuation {
-    color: #a1a1a1;
+
+/* Dialog Table */
+
+.dmundra .sTypeTable {
+    border: none;
 }
 
-span.css-value,
-span.xml-tagname {
-    color: #c200de;
+.dmundra .sTypeTable .sTypeHeader {
+    background-color: #2a2833;
+    border: none;
 }
 
-span.xml-attribute {
-    color: #2bad16;
+.dmundra .sTypeTable .sTypeTd, .dmundra #sTypeFile {
+    border: none;
 }
 
-span.js-string {
-    color: #dc1d1d;
+.dmundra .sTypeItem a:hover {
+    background-color: #434152;
 }
 
-iframe.body_codeMirror html::-webkit-scrollbar {
-    color: red;
+
+/* File Browse Dialog */
+
+.dmundra div[dojoattachpoint="foldersContentPane"] {
+    border: none !important;
 }
 
-span.js-localvariable {
-    color: #6093d2;
+.dmundra div[dojoattachpoint="tablesContentPane"] {
+    border: none !important;
 }
 
-span.js-variabledef,
-span.xml-attname {
-    color: #5b5bff;
+.dmundra div[dojoattachpoint="tablesContentPane"] > div[style*="background:#e1e1e1;"] {
+    background-color: #3a3847 !important;
+}
+
+.dmundra div[dojoattachpoint="tablesContentPane"] .thumbnailTD td {
+    border: none;
+}
+
+.dmundra div[dojoattachpoint="tablesSummary"] {
+    border-top: 1px solid #494754 !important;
+}
+
+.dmundra .dijitTreeRow img.dijitTreeExpando {
+    filter: invert(1) grayscale(100%) sepia(100%) hue-rotate(255deg) opacity(0.66);
+}
+
+
+/* Account Drop down */
+
+.dmundra #closeTab {
+    background: rgba(0, 0, 0, 0.7)
+}
+
+.dmundra .account-flyout {
+    background-color: #3a3847;
+    border: none;
+}
+
+.dmundra .account-flyout a {
+    color: #ce7ce2;
+}
+
+.dmundra .account-flyout a:hover {
+    background-color: #434152;
+    color: #dfa5ec;
+}
+
+.dmundra .account-flyout .service-links {
+    border: none;
+}
+
+.dmundra .account-flyout .login-out {
+    background-color: #434152;
+    border: none;
+}
+
+.dmundra .account-flyout .login-out td[style*="border-left:1px solid #d0d0d0"] {
+    border-left-color: #c336e5 !important;
+}
+
+.dmundra .account-flyout .service-links a:hover, .dmundra .account-flyout .my-account a:hover {
+    background-color: #434152;
+}
+
+
+/* Context */
+
+.dmundra .contextPopupMenuBox {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22), 0 -10px 12px rgba(0, 0, 0, 0.16);
+    border: none;
+}
+
+.dmundra .contextPopupMenuBox .contextPopupMenu {
+    background-color: #312f3c;
+    color: #acacac;
+}
+
+.dmundra .contextPopupMenuBox .contextPopupMenu:hover {
+    background-color: #434152;
+    color: #b6b6b6;
+}
+
+.dmundra .contextPopupMenuBox .pop_divider {
+    border-color: #5f5d6d;
+    background-color: #2a2833;
+}
+
+
+/********************
+** Content Manager **
+********************/
+
+.dmundra .listingTable {
+    border: none;
+}
+
+.dmundra .listingTable th {
+    background-color: #2a2833;
+    border: none;
+}
+
+.dmundra .listingTable th a {
+    color: #c336e5;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.dmundra .listingTable tr:hover td {
+    background-color: #434152;
+    color: #ce7ce2;
+}
+
+.dmundra .listingTable td {
+    border: 1px solid #3e3c48;
+    background-color: #3a3847;
+}
+
+.dmundra .listingTable td a {
+    color: #ce7ce2;
+}
+
+.dmundra .listingTable td .contentletInnerTable td {
+    border: none;
+}
+
+.dmundra .listingTable td .contentletInnerTable a {
+    color: #ce7ce2;
+}
+
+
+/*******************
+** Content Editor **
+*******************/
+
+.dmundra .gradient2 {
+    background: #2a2833 !important;
+}
+
+.dmundra .buttonRow-left {
+    background: #2a2833 !important;
+}
+
+.dmundra .buttonRow-left .gradient.title {
+    background: #2a2833 !important;
+    color: #b6b6b6;
+    border: none;
+}
+
+#contentletActionsHanger > a, #contentletActionsHanger > a[style="background-color: rgb(255, 255, 255);"] {
+    background-color: #3a3847;
+    border-color: #c336e5;
+    color: #c336e5;
+}
+
+#contentletActionsHanger > a[style="background-color: rgb(255, 255, 255);"] {
+    background-color: #3a3847 !important;
+}
+
+#contentletActionsHanger > a:hover {
+    background-color: #434152;
+    color: #dfa5ec;
+    border-color: #dc49ff;
+}
+
+#contentletActionsHanger > a[style="background-color: rgb(255, 255, 255);"]:hover {
+    background-color: #434152 !important;
+    color: #dfa5ec;
+    border-color: #dc49ff;
+}
+
+#contentletActionsHanger #contentActionsCp a {
+    background-color: #3a3847;
+    border-color: #c336e5;
+    color: #c336e5;
+}
+
+.dmundra .callOutBox {
+    background-color: #792288;
+    border: none;
+    color: #ccc;
+}
+
+.dmundra .callOutBox2 {
+    background-color: #2a2833;
+    color: #b6b6b6;
+    border: none;
+}
+
+
+/*****************
+** Site Browser **
+*****************/
+
+.dmundra .buttonBoxLeft {
+    color: #b6b6b6;
+}
+
+.dmundra #TreeUL a {
+    color: #acacac;
+}
+
+.dmundra #trashLabel {
+    color: #ce7ce2;
+}
+
+.dmundra .browserTable td {
+    border-top: 1px dotted #3e3c48;
+}
+
+.dmundra .browserTable td a {
+    color: #acacac;
+}
+
+.dmundra .browserTable tr.contentRowRoller, .dmundra .browserTable tr.contentRowSelected {
+    background-color: #434152;
+}
+
+.dmundra .browserTable tr.contentRowRoller a {
+    color: #c336e5;
+}
+
+
+/************************
+** Content Type Editor **
+************************/
+
+.dmundra #fieldsTable {
+    border: none;
+}
+
+.dmundra #fieldsTable #fieldsTableHeader {
+    background-color: #2a2833;
+    border: none;
+}
+
+.dmundra #fieldsTable #fieldsTableHeader .item_header_cell {
+    border: none;
+    color: #c336e5;
+}
+
+.dmundra #fieldsTable div[jsid="dragNDropBox"] > div {
+    background-color: #434152 !important;
+}
+
+.dmundra #fieldsTable div[jsid="dragNDropBox"] .item_cell {
+    background-color: #434152 !important;
+    border: none;
+}
+
+
+/*****************
+** User Manager **
+*****************/
+
+.dmundra .dojoxGrid .dojoxGridCell {
+    border: none;
+}
+
+.dmundra .dojoxGridHeader .dojoxGridCell {
+    background-color: #2a2833;
+    background-image: none;
+}
+
+.dmundra .dojoxGridRow {
+    background-color: #434152;
+    border: none;
+}
+
+.dmundra .dojoxGridRow.dojoxGridRowOdd {
+    background-color: #3a3847;
+}
+
+.dmundra .dojoxGrid, .dojoxGridScrollbox {
+    background-color: #434152;
+}
+
+.dmundra .nameHeader {
+    background-color: #3a3847;
+    border: none;
+}
+
+.dmundra .dijitContentPane div[style*="border-bottom:1px solid #ccc;"] {
+    border: none !important;
+}
+
+.dmundra #userRolesTreeWrapper {
+    border-color: #5f5d6d !important;
+}
+
+.dmundra #userRolesSelect {
+    border-color: #5f5d6d !important;
+    background-color: #3a3847;
+    color: #acacac;
+}
+
+.dmundra .dijitAccordionContainer-dijitContentPane {
+    background: #2a2833;
+    color: #b6b6b6;
+    border: none;
+}
+
+.dmundra .permissionsActions {
+    background: #2a2833;
+    border: none;
+}
+
+
+/***************
+** Categories **
+***************/
+
+.dmundra .dojoxGridScrollbox .dojoxGridRowOver .dojoxGridCell {
+    background-color: #85279c;
+    color: #dfa5ec;
+}
+
+.dmundra .dojoxGridPaginator {
+    background-color: #2a2833;
+    border-top: none;
+}
+
+.dmundra .dojoxGridActived {
+    color: #b6b6b6;
+}
+
+.dmundra .tundra .dojoxGridHeader .dojoxGridRowTable .dojoxGridCell {
+    color: #c336e5 !important;
+}
+
+.dmundra .addCatVelVarName {
+    background-color: #312f3c;
+}
+
+.dmundra .dojoxGridInactiveSwitch {
+    color: #c336e5;
+}
+
+.dmundra .dojoxGridActivedSwitch {
+    color: #dfa5ec;
+}
+
+
+/*************
+** Calendar **
+*************/
+
+.dmundra #dailyEvents h3, .dmundra #ongoingEvents h3 {
+    background-color: #312f3c;
+    border: none;
+}
+
+.dmundra #dailyEvents ul li, .dmundra #ongoingEvents ul li {
+    border: none;
+}
+
+.dmundra #calendarNavigation .navSelectedDay {
+    background-color: #434152;
+}
+
+.dmundra #calendarNavigation .navSelectedDay a {
+    background-color: #461352;
+}
+
+
+/****************
+** Maintenance **
+****************/
+
+.dmundra .listingTable.shadowBox {
+    box-shadow: none;
+}
+
+
+/* Index */
+
+.dmundra .listingTable .trIdxActive td {
+    background-color: #1b5e05;
+}
+
+.dmundra .listingTable .trIdxBuilding td {
+    background-color: #8e5216;
+}
+
+
+/**************
+** Templates **
+**************/
+
+#bodyTemplate #hd-template, #bodyTemplate #ft-template {
+    background-color: #2a2833;
+    border: none;
+}
+
+#bodyTemplate .yui-b-template {
+    background-color: #2a2833;
+    border: none;
+}
+
+#bodyTemplate .yui-b-template .addContainerSpan a {
+    color: #c336e5;
+}
+
+#bodyTemplate .yui-b-template .titleContainerSpan {
+    background-color: #312f3c;
+}
+
+#bodyTemplate .yui-b-template .titleContainerSpan .removeDiv a {
+    color: #c336e5;
+}
+
+
+/****************
+** Page Editor **
+****************/
+
+.dmundra .sideMenu .pageTools {
+    background-color: #3a3847;
+    border: none;
+}
+
+.dmundra .sideMenu .pageTools a {
+    background-color: #3a3847;
+    color: #c336e5;
+    margin-bottom: 0.33rem;
+}
+
+.dmundra #max_bar[style*="background-color: rgb(230, 233, 238);"] {
+    background-color: #2a2833 !important;
+    border-left: 1px solid #5f5d6d;
+    border-right: 1px solid #5f5d6d;
+}
+
+
+/******************
+** Notifications **
+******************/
+
+.dmundra #notificationsDiv {
+    border: none;
+    background-color: #2a2833;
+}
+
+.dmundra .tundra .dojoxGridScrollbox {
+    background-color: #2a2833;
+}
+
+
+/**********
+** Alert **
+**********/
+
+.dmundra .alert {
+    border: none;
+}
+
+.dmundra .alert-warning {
+    background-color: #a8720f;
+    color: #b6b6b6;
+}
+
+div[widgetid="licenseTabContent"] a[style] {
+    color: #ce7ce2 !important;
+}
+
+
+/************
+** Cluster **
+************/
+
+.dmundra #actionPanel {
+    background-color: #2a2833;
+    border: none;
+}
+
+.dmundra #actionPanelContainer {
+    background-color: #2a2833;
+    border: none;
+}
+
+.dmundra .actionPanelContent hr {
+    border-color: #5f5d6d;
+}
+
+
+/****************
+** Tag Manager **
+****************/
+
+.dmundra .dojoxGridRowbarInner {
+    border-bottom: none;
+}
+
+.dmundra .dojoxGridRowbar.dojoxGridNonNormalizedCell {
+    background-image: none;
+    background-color: #3a3847;
+    border-right: none;
+}
+
+
+/**************
+** Workflows **
+**************/
+
+.dmundra #wfStepsBoundingBoxMain {
+    border-color: #c336e5;
+}
+
+
+/*****************
+** Link Checker **
+*****************/
+
+.dmundra #brokenLinkMain .dijitBorderContainer-child {
+    background-color: #3a3847;
+    border: none;
+}
+
+.dmundra #brokenLinkMain .dijitGutterH {
+    background: #312f3c;
+}
+
+
+/**************
+** Dashboard **
+**************/
+
+.dmundra .roundBox[style*="background:#f1f1f1;"] {
+    background-color: #3a3847 !important;
+    border: none;
+}
+
+
+/***************************
+** Some Fixes for dotcms2 **
+***************************/
+
+.dmundra #menu ul.horizontal > li.level1:not(.level2) {
+    background: #312f3c !important;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-right: 0.1rem;
+    font-size: 1rem;
+}
+
+.dmundra #menu ul.horizontal li.level1 > a {
+    background-image: none !important;
+    background: #312f3c !important;
+    border-image-width: 0;
+}
+
+#menu ul.horizontal li.level1 .tabLeft {
+    background: none;
+}
+
+.dmundra #menu ul.horizontal li.level1 a div[class*="-title"] {
+    background-image: none;
+    color: #b6b6b6;
+}
+
+.dmundra #menu ul.horizontal li.level1 a div[class*="-subtitle"] {
+    color: #999;
+    opacity: 0.5;
+}
+
+.dmundra #menu ul.horizontal li.level1.active a div[class*="-title"] {
+    color: #c336e5;
+}
+
+.dmundra #menu ul.dropdown {
+    background-color: #312f3c;
+    border: none;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22), 0 -10px 12px rgba(0, 0, 0, 0.16) !important;
+}
+
+.dmundra #menu ul.dropdown li.level2 a {
+    background-color: #312f3c;
+    color: #acacac;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.dmundra #menu ul.dropdown li.level1 ul.level2 li.level2 a:hover {
+    background-color: #85279c;
+    color: #b6b6b6;
 }
