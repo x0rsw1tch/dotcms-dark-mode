@@ -44,6 +44,32 @@ div[style*="border:1px silver solid;"] {
     box-shadow: none;
 }
 
+.dmundra .error-message {
+    color: #f31f1f;
+}
+
+
+/* Scrollbar */
+
+*::-webkit-scrollbar {
+    width: 12px;
+    background-color: #3a3847;
+}
+
+*::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(10, 10, 10, 0.3);
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, .3);
+    background-color: #312f3c;
+}
+
+*::-webkit-scrollbar-corner {
+    background: rgba(0, 0, 0, 0.1);
+}
+
 
 /* Top Section */
 
@@ -171,6 +197,10 @@ div[style*="border:1px silver solid;"] {
     filter: invert(1) grayscale(100%) sepia(100%) hue-rotate(255deg) saturate(8) opacity(0.5);
 }
 
+.dmundra .dijitDialogCloseIcon {
+    filter: invert(1) grayscale(100%) sepia(100%) hue-rotate(255deg) saturate(8) opacity(0.5);
+}
+
 
 /************************
 ** Main Section / Body **
@@ -225,6 +255,10 @@ div[style*="border:1px silver solid;"] {
 dt {
     font-size: 1rem;
     line-height: 1.33;
+}
+
+.dmundra .dijitButtonNode {
+    padding: 4px 8px;
 }
 
 .dmundra .dijitButtonNode {
@@ -380,6 +414,7 @@ dt {
     background-image: none;
     background-color: #312f3c;
     border: none;
+    box-shadow: inset 0 0 5px rgba(10, 10, 10, 0.20);
 }
 
 .dmundra .dijitTextBox[style*="border: 1px solid rgb(238, 238, 238);"] {
@@ -393,7 +428,15 @@ input, input[type="text"], textarea, select {
     background-image: none;
     background-color: #312f3c;
     color: #b6b6b6;
-    border: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #9930b5;
+    box-shadow: inset 0 0 4px rgba(44, 42, 56, 0.33);
+}
+
+div:not(.dijitTextBox) input, div:not(.dijitTextBox) input[type="text"] {
+    box-shadow: none;
 }
 
 
@@ -568,7 +611,7 @@ input, input[type="text"], textarea, select {
 }
 
 .dmundra .dijitDialog .dijitDialogTitleBar {
-    background-color: #2a2833;
+    background-color: #3a3847;
     background-image: none;
     font-size: 15px;
 }
@@ -671,6 +714,25 @@ input, input[type="text"], textarea, select {
 
 .dmundra .account-flyout .service-links a:hover, .dmundra .account-flyout .my-account a:hover {
     background-color: #434152;
+}
+
+
+/* Progress Bar */
+
+.dmundra .dijitDialog .dijitProgressBarEmpty {
+    background-color: #3a3847;
+    background-image: none;
+    color: #b6b6b6;
+}
+
+.dmundra .dijitProgressBarTile {
+    background: #c336e5 !important;
+    background-image: none !important;
+    color: #b6b6b6;
+}
+
+.dmundra .dijitProgressBarLabel {
+    color: white;
 }
 
 
