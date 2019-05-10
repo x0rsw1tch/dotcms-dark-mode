@@ -8,12 +8,12 @@ Dark stylesheet for dotCMS back-end
 Use the Chrome extension "Stylus" to add your stylesheets, and use the following RegEx pattern for host matching, changing the hostname as needed:
 
 ```
-  HTTP or                                Optional            Back-end
-   HTTPS                Host FQDN          Port                URIs
-     |                      |               |                   |
- ---------         -------------------- ---------     ---------------------
- |       |         |                  | |       |     |                   | 
-/(http)+s*(\:\/\/)+(WWW\.HOSTNAME\.COM)+(\:8080)*(\/)+(dotAdmin\/|c\/)+.*/
+  HTTP or                                Optional                              Back-end
+   HTTPS                Host FQDN          Port                                  URIs
+     |                      |               |                                     |
+ ---------         -------------------- ---------    --------------------------------------------------------
+ |       |         |                  | |       |    |                                                      | 
+(http)+s*(\:\/\/)+(WWW\.HOSTNAME\.COM)+(\:8080)*(\/)+(dotAdmin\/|c\/|.*\?leftMenu|html\/portal|.*\?mainFrame)+.*
 ```
 
 ### For styling the log window
