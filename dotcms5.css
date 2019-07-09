@@ -19,6 +19,11 @@ border-color: #938eb5;
 
 */
 
+body dot-root .loading-wrapper {
+    background-color: #3a3847;
+}
+
+
 div body:not(#tinymce) {
     background-color: #3a3847;
 }
@@ -34,10 +39,48 @@ div body:not(#tinymce) {
 }
 
 
-p-toolbar[_ngcontent-c5] .ui-toolbar, .ui-widget-header {
+p-toolbar[_ngcontent-c5] .ui-toolbar,
+p-toolbar[_ngcontent-c9] .ui-toolbar, 
+.ui-widget-header {
     background-color: #3a3847;
     color: #ccc;
 }
+
+/* Login */
+div[class="login"] {
+    background-color: #434152 !important;
+}
+
+a[actionlink], .ui-chkbox-label, [dotmdinputtext].md-inputtext label {
+    color: #938eb5;
+}
+
+h3.login__title {
+    color: #938eb5;
+}
+
+/* Scrollbar */
+
+*::-webkit-scrollbar {
+    width: 12px;
+    background-color: #3a3847;
+}
+
+*::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(10, 10, 10, 0.3);
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, .3);
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, .3);
+    background-color: #312f3c;
+}
+
+*::-webkit-scrollbar-corner {
+    background: rgba(0, 0, 0, 0.1);
+}
+
 
 /* Structure */
 dot-content-types .ui-table .ui-table-wrapper  {
@@ -210,7 +253,7 @@ dot-content-types .ui-table .ui-table-tbody tr:hover {
     color: #ccc !important;
 }
 
-body.dotcms .fieldName > span:last-child:not(.dijitTooltipData) {
+body.dotcms .content-edit__form .fieldName > span:last-child:not(.dijitTooltipData) {
     display: inline-block;
     padding-top: 1.5rem;
     padding-left: 0;
@@ -253,7 +296,7 @@ body.dotcms .fieldName .required2 {
     display: none;
 }
 
-span [dojotype="dijit.Tooltip"] {
+body.dotcms .content-edit__form span [dojotype="dijit.Tooltip"] {
     position: absolute;
     display: flex !important;
     flex-direction: row-reverse;
@@ -265,9 +308,24 @@ span [dojotype="dijit.Tooltip"] {
     opacity: 0.66;
 }
 
-span [dojotype="dijit.Tooltip"] .contentHint {
+body.dotcms .content-edit__form span [dojotype="dijit.Tooltip"] .contentHint {
     color: #acacac;
     font-size: 11px;
+}
+
+body.dotcms .selectMeRowInIframe:hover {
+    background-color: #434152;
+}
+
+body.dotcms #relationshipReturnValueButton {
+    background-color: #312f3c;
+    border-color: #938eb5;
+    color: #9982e2;
+}
+
+body.dotcms #relationshipReturnValueButton a {
+    background-color: #312f3c;
+    color: #9982e2;
 }
 
 
