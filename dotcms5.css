@@ -67,12 +67,14 @@ h3.login__title {
 }
 
 *::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(10, 10, 10, 0.3);
     box-shadow: inset 0 0 6px rgba(10, 10, 10, 0.3);
 }
 
 *::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, .3);
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, .3);
     background-color: #312f3c;
 }
 
@@ -735,4 +737,3 @@ button:not([disabled]) .ui-button-icon-left {
 dot-root iframe.dot-edit__iframe body {
     background: none !important;
 }
-
