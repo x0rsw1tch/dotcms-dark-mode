@@ -126,3 +126,7 @@ body#tinymce {
     background-color: #181818;
     color: #bbb;
 }
+
+html[stylus-iframe] span.xml-text {
+    color: #bbb;
+}

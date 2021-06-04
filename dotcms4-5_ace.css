@@ -2,69 +2,79 @@
     border: 1px solid #323232 !important;
 }
 
-.dotcms .ace_editor.ace-tm {
+.dotcms .ace_editor.ace-tm, dot-dialog .ace_editor.ace-tm {
     font: 14px/normal 'Source Code Pro', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    line-height: 1.66;
+    -webkit-font-smoothing: antialiased;
     background-color: #232525;
 }
 
-.dotcms .ace_editor.ace-tm .ace_gutter, .dmundra #editor.ace-tm .ace_gutter .ace_gutter-cell {
+.dotcms .ace_editor.ace-tm .ace_gutter, .dmundra #editor.ace-tm .ace_gutter .ace_gutter-cell, dot-dialog .ace_editor.ace-tm .ace_gutter {
     background: #232525;
     color: #ababab;
 }
 
-.dotcms .ace_editor.ace-tm .ace_content {
+.dotcms .ace_editor.ace-tm .ace_content, dot-dialog .ace_editor.ace-tm .ace_content {
     background-color: #232525;
     color: #ababab;
 }
 
-.dotcms .ace_editor.ace-tm .ace_print-margin {
+.ace-tm .ace_cursor {
+    color: #999;
+}
+
+.ace-tm .ace_gutter-active-line {
+    background-color: #444949;
+}
+
+.dotcms .ace_editor.ace-tm .ace_print-margin, dot-dialog .ace_editor.ace-tm .ace_print-margin {
     display: none;
 }
 
-.dotcms .ace_editor.ace-tm .ace_indent-guide {
+.dotcms .ace_editor.ace-tm .ace_indent-guide, dot-dialog .ace_editor.ace-tm .ace_indent-guide {
     opacity: 0.25;
 }
 
-.dotcms .ace_editor.ace-tm .ace_scrollbar {
+.dotcms .ace_editor.ace-tm .ace_scrollbar, dot-dialog .ace_editor.ace-tm .ace_scrollbar {
     background-color: #232525;
 }
 
-.dotcms .ace_editor.ace-tm .ace_meta.ace_tag {
+.dotcms .ace_editor.ace-tm .ace_meta.ace_tag, dot-dialog .ace_editor.ace-tm .ace_meta.ace_tag {
     color: #cc7832;
 }
 
-.dotcms .ace_editor.ace-tm .ace_constant {
+.dotcms .ace_editor.ace-tm .ace_constant, dot-dialog .ace_editor.ace-tm .ace_constant {
     color: #cc7832;
 }
 
-.dotcms .ace_editor.ace-tm .ace_support.ace_type {
+.dotcms .ace_editor.ace-tm .ace_support.ace_type, dot-dialog .ace_editor.ace-tm .ace_support.ace_type {
     color: #a9b7c6;
 }
 
-.dotcms .ace_editor.ace-tm .ace_keyword {
+.dotcms .ace_editor.ace-tm .ace_keyword, dot-dialog .ace_editor.ace-tm .ace_keyword {
     color: #cc7832;
 }
 
-.dotcms .ace_editor.ace-tm .ace_string {
+.dotcms .ace_editor.ace-tm .ace_string, dot-dialog .ace_editor.ace-tm .ace_string {
     color: #6a8759;
 }
 
-.dotcms .ace_editor.ace-tm .ace_attribute-name {
+.dotcms .ace_editor.ace-tm .ace_attribute-name, dot-dotdialog .ace_editor.ace-tm .ace_attribute-name {
     color: #baba8a;
 }
 
-.dotcms .ace_editor.ace-tm .ace_variable {
+.dotcms .ace_editor.ace-tm .ace_variable, dot-dialog .ace_editor.ace-tm .ace_variable {
     color: #baba8a;
 }
 
-.dotcms .ace_editor.ace-tm .ace_numeric {
+.dotcms .ace_editor.ace-tm .ace_numeric, dot-dialog .ace_editor.ace-tm .ace_numeric {
     color: #6897bb;
 }
 
-.dotcms .ace_editor.ace-tm .ace_keyword {
+.dotcms .ace_editor.ace-tm .ace_keyword, dot-dialog .ace_editor.ace-tm .ace_keyword {
     color: #cc7832;
 }
 
-.dotcms .ace_editor.ace-tm .ace_comment {
+.dotcms .ace_editor.ace-tm .ace_comment, dot-dialog .ace_editor.ace-tm .ace_comment {
     color: #808080;
 }
